@@ -1,0 +1,12 @@
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\bin\Debug\net6.0\FindPets.Api.Settings.deps.json
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\bin\Debug\net6.0\FindPets.Api.Settings.dll
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\bin\Debug\net6.0\FindPets.Api.Settings.pdb
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\net6.0\FindPets.Api.Settings.csproj.AssemblyReference.cache
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\net6.0\FindPets.Api.Settings.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\net6.0\FindPets.Api.Settings.AssemblyInfoInputs.cache
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\net6.0\FindPets.Api.Settings.AssemblyInfo.cs
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\net6.0\FindPets.Api.Settings.csproj.CoreCompileInputs.cache
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\net6.0\FindPets.Api.Settings.dll
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\net6.0\refint\FindPets.Api.Settings.dll
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\net6.0\FindPets.Api.Settings.pdb
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\net6.0\ref\FindPets.Api.Settings.dll

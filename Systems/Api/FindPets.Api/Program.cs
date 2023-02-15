@@ -4,15 +4,21 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.AddAppLogger();
+
+var services = builder.Services;
+
+services.AddAppHealthChecks();
+
 builder.Services.AddControllers();
 
-builder.AddAppLogger();
 
 var app = builder.Build();
 
+app.UseAppHealthChecks();
+
 // Configure the HTTP request pipeline.
 
-app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

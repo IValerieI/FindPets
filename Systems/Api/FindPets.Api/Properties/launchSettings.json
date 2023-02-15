@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "FindPets.Api": {
+    "Application": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
