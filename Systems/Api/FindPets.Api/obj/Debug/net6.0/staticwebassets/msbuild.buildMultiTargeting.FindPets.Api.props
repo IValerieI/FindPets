@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FindPets.Api.props" />
+</Project>

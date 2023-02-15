@@ -15,9 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{F7538553-0B5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{D7E2F68C-7499-4386-AA11-E8F372A4BC7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPets.Api", "Systems\Api\FindPets.Api\FindPets.Api.csproj", "{B1569539-CF38-4F99-B412-AA232CB9513C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPets.Api", "Systems\Api\FindPets.Api\FindPets.Api.csproj", "{B1569539-CF38-4F99-B412-AA232CB9513C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPets.Api.Settings", "Systems\Api\FindPets.Api.Settings\FindPets.Api.Settings.csproj", "{07A4F13B-5847-4120-931B-02C6BDB51769}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPets.Api.Settings", "Systems\Api\FindPets.Api.Settings\FindPets.Api.Settings.csproj", "{07A4F13B-5847-4120-931B-02C6BDB51769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPets.Common", "Shared\FindPets.Common\FindPets.Common.csproj", "{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{07A4F13B-5847-4120-931B-02C6BDB51769}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07A4F13B-5847-4120-931B-02C6BDB51769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07A4F13B-5847-4120-931B-02C6BDB51769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 		{D7E2F68C-7499-4386-AA11-E8F372A4BC7B} = {24A703D0-5BA0-4CE6-A76B-A39C54F7B554}
 		{B1569539-CF38-4F99-B412-AA232CB9513C} = {F7538553-0B5A-48F3-A808-C99F9E9A2AB7}
 		{07A4F13B-5847-4120-931B-02C6BDB51769} = {F7538553-0B5A-48F3-A808-C99F9E9A2AB7}
+		{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4} = {BCB11393-F16A-4149-A864-833C0BD342E0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FC4CD73-98EE-4351-B5FB-197652800F60}

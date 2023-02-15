@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+atHYKCVAMmnZS8Kcyxcn2ir8/hmxnLALwkrLUcv6ek=",
+  "Source": "FindPets.Api",
+  "BasePath": "_content/FindPets.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

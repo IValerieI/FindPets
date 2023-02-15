@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\FindPets.Api.csproj": {}
+    "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {}
   },
   "projects": {
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\FindPets.Api.csproj": {
+    "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\FindPets.Api.csproj",
-        "projectName": "FindPets.Api",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\FindPets.Api.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj",
+        "projectName": "FindPets.Common",
+        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,17 +44,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Serilog.AspNetCore": {
+            "AutoMapper": {
               "target": "Package",
-              "version": "[6.1.0, )"
+              "version": "[12.0.1, )"
             },
-            "Serilog.Enrichers.CorrelationId": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[12.0.0, )"
             },
-            "Serilog.Expressions": {
+            "FluentValidation": {
               "target": "Package",
-              "version": "[3.4.1, )"
+              "version": "[11.5.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
             }
           },
           "imports": [
@@ -69,9 +73,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
