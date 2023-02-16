@@ -8,12 +8,21 @@ builder.AddAppLogger();
 
 var services = builder.Services;
 
-services.AddAppHealthChecks();
+services.AddHttpContextAccessor();
+services.AddAppCors();
 
-builder.Services.AddControllers();
+services.AddAppVersioning();
+services.AddAppHealthChecks();
+services.AddAppSwagger();
+
+services.AddControllers();
 
 
 var app = builder.Build();
+
+app.UseAppSwagger();
+
+app.UseAppCors();
 
 app.UseAppHealthChecks();
 
