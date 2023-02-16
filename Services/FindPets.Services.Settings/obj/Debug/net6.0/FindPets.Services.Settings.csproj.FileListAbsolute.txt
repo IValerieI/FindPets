@@ -1,0 +1,15 @@
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\bin\Debug\net6.0\FindPets.Services.Settings.deps.json
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\bin\Debug\net6.0\FindPets.Services.Settings.dll
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\bin\Debug\net6.0\FindPets.Services.Settings.pdb
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\bin\Debug\net6.0\FindPets.Settings.dll
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\bin\Debug\net6.0\FindPets.Settings.pdb
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\obj\Debug\net6.0\FindPets.Services.Settings.csproj.AssemblyReference.cache
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\obj\Debug\net6.0\FindPets.Services.Settings.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\obj\Debug\net6.0\FindPets.Services.Settings.AssemblyInfoInputs.cache
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\obj\Debug\net6.0\FindPets.Services.Settings.AssemblyInfo.cs
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\obj\Debug\net6.0\FindPets.Services.Settings.csproj.CoreCompileInputs.cache
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\obj\Debug\net6.0\FindPets.Services.Settings.csproj.CopyComplete
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\obj\Debug\net6.0\FindPets.Services.Settings.dll
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\obj\Debug\net6.0\refint\FindPets.Services.Settings.dll
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\obj\Debug\net6.0\FindPets.Services.Settings.pdb
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Settings\obj\Debug\net6.0\ref\FindPets.Services.Settings.dll

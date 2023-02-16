@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+
+  findpets_postgresql:
+    image: postgres:14.1
+
+  findpets_redis:
+    image: redis
+
+  findpets_api:
+    image: ${DOCKER_REGISTRY-}findpetsapi
+    build:
+      context: .
+      dockerfile: Systems/Api/FindPets.Api/Dockerfile
+    depends_on:
+      - findpets_postgresql
+      - findpets_redis

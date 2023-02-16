@@ -6,15 +6,20 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <DocumentationFile>api.xml</DocumentationFile>
+    <UserSecretsId>1c3b7c2a-cc3c-4f9c-80bc-52ac9959bebc</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
     <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="7.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
     <PackageReference Include="Serilog.Enrichers.CorrelationId" Version="3.0.1" />
     <PackageReference Include="Serilog.Expressions" Version="3.4.1" />
@@ -25,7 +30,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Services\FindPets.Services.Settings\FindPets.Services.Settings.csproj" />
     <ProjectReference Include="..\..\..\Shared\FindPets.Common\FindPets.Common.csproj" />
+    <ProjectReference Include="..\..\..\Shared\FindPets.Settings\FindPets.Settings.csproj" />
+    <ProjectReference Include="..\FindPets.Api.Settings\FindPets.Api.Settings.csproj" />
   </ItemGroup>
 
 </Project>

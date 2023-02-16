@@ -19,7 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPets.Api", "Systems\Api
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPets.Api.Settings", "Systems\Api\FindPets.Api.Settings\FindPets.Api.Settings.csproj", "{07A4F13B-5847-4120-931B-02C6BDB51769}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPets.Common", "Shared\FindPets.Common\FindPets.Common.csproj", "{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPets.Common", "Shared\FindPets.Common\FindPets.Common.csproj", "{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPets.Settings", "Shared\FindPets.Settings\FindPets.Settings.csproj", "{00181E34-FF30-4250-A2BF-634A3399F38C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPets.Services.Settings", "Services\FindPets.Services.Settings\FindPets.Services.Settings.csproj", "{C38C7085-AC62-4347-BFE9-E293A4A3BDF1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0C255EC8-D542-48C1-9684-0BB8EA2BCA5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00181E34-FF30-4250-A2BF-634A3399F38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00181E34-FF30-4250-A2BF-634A3399F38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00181E34-FF30-4250-A2BF-634A3399F38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00181E34-FF30-4250-A2BF-634A3399F38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38C7085-AC62-4347-BFE9-E293A4A3BDF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38C7085-AC62-4347-BFE9-E293A4A3BDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38C7085-AC62-4347-BFE9-E293A4A3BDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38C7085-AC62-4347-BFE9-E293A4A3BDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C255EC8-D542-48C1-9684-0BB8EA2BCA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C255EC8-D542-48C1-9684-0BB8EA2BCA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C255EC8-D542-48C1-9684-0BB8EA2BCA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C255EC8-D542-48C1-9684-0BB8EA2BCA5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +67,8 @@ Global
 		{B1569539-CF38-4F99-B412-AA232CB9513C} = {F7538553-0B5A-48F3-A808-C99F9E9A2AB7}
 		{07A4F13B-5847-4120-931B-02C6BDB51769} = {F7538553-0B5A-48F3-A808-C99F9E9A2AB7}
 		{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4} = {BCB11393-F16A-4149-A864-833C0BD342E0}
+		{00181E34-FF30-4250-A2BF-634A3399F38C} = {BCB11393-F16A-4149-A864-833C0BD342E0}
+		{C38C7085-AC62-4347-BFE9-E293A4A3BDF1} = {B812E303-18AF-47D4-9605-FC447F6E82F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FC4CD73-98EE-4351-B5FB-197652800F60}

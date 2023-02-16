@@ -10,3 +10,6 @@ C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\net6.0\refint\FindPets.Api.Settings.dll
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\net6.0\FindPets.Api.Settings.pdb
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\net6.0\ref\FindPets.Api.Settings.dll
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\bin\Debug\net6.0\FindPets.Settings.dll
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\bin\Debug\net6.0\FindPets.Settings.pdb
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api.Settings\obj\Debug\net6.0\FindPets.Api.Settings.csproj.CopyComplete
