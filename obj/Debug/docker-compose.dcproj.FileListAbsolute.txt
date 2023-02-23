@@ -72,3 +72,5 @@ C:\projects\.NET\DSR\СourseProject\bin\Debug\Microsoft.EntityFrameworkCore.Rela
 C:\projects\.NET\DSR\СourseProject\bin\Debug\Microsoft.Data.SqlClient.dll
 C:\projects\.NET\DSR\СourseProject\bin\Debug\Npgsql.dll
 C:\projects\.NET\DSR\СourseProject\bin\Debug\Microsoft.Identity.Client.dll
+C:\projects\.NET\DSR\СourseProject\bin\Debug\FindPets.Context.Entities.dll
+C:\projects\.NET\DSR\СourseProject\bin\Debug\FindPets.Context.Entities.pdb
