@@ -29,6 +29,8 @@ services.AddAppControllerAndViews();
 services.RegisterAppServices();
 
 
+
+
 var app = builder.Build();
 
 app.UseAppControllerAndViews();
@@ -36,6 +38,9 @@ app.UseAppSwagger();
 
 app.UseAppCors();
 app.UseAppHealthChecks();
+
+DbInitializer.Execute(app.Services);
+DbSeeder.Execute(app.Services, true, true);
 
 // Configure the HTTP request pipeline.
 

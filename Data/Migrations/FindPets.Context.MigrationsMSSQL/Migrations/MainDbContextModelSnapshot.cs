@@ -32,11 +32,13 @@ namespace FindPets.Context.MigrationsMSSQL.Migrations
 
                     b.Property<string>("Breed")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(2000)
+                        .HasColumnType("nvarchar(2000)");
 
                     b.Property<string>("Image")
                         .IsRequired()
@@ -44,7 +46,8 @@ namespace FindPets.Context.MigrationsMSSQL.Migrations
 
                     b.Property<string>("Kind")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<DateTime>("LostSince")
                         .HasColumnType("datetime2");
@@ -57,7 +60,109 @@ namespace FindPets.Context.MigrationsMSSQL.Migrations
                     b.HasIndex("Uid")
                         .IsUnique();
 
-                    b.ToTable("Animals");
+                    b.ToTable("animals", (string)null);
+                });
+
+            modelBuilder.Entity("FindPets.Context.Entities.Comment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("AnimalId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<Guid>("Uid")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AnimalId");
+
+                    b.HasIndex("Uid")
+                        .IsUnique();
+
+                    b.ToTable("comments", (string)null);
+                });
+
+            modelBuilder.Entity("FindPets.Context.Entities.Request", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("AnimalId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<Guid>("Uid")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AnimalId");
+
+                    b.HasIndex("Uid")
+                        .IsUnique();
+
+                    b.ToTable("requests", (string)null);
+                });
+
+            modelBuilder.Entity("FindPets.Context.Entities.Comment", b =>
+                {
+                    b.HasOne("FindPets.Context.Entities.Animal", "Animal")
+                        .WithMany("Comments")
+                        .HasForeignKey("AnimalId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Animal");
+                });
+
+            modelBuilder.Entity("FindPets.Context.Entities.Request", b =>
+                {
+                    b.HasOne("FindPets.Context.Entities.Animal", "Animal")
+                        .WithMany("Requests")
+                        .HasForeignKey("AnimalId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Animal");
+                });
+
+            modelBuilder.Entity("FindPets.Context.Entities.Animal", b =>
+                {
+                    b.Navigation("Comments");
+
+                    b.Navigation("Requests");
                 });
 #pragma warning restore 612, 618
         }

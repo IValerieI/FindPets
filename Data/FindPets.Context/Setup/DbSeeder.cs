@@ -69,57 +69,59 @@ public static class DbSeeder
     {
         await using var context = DbContext(serviceProvider);
 
-        if (context.Animals.Any() || context.Comments.Any() || context.Requests.Any())
-            return;
+        //if (context.Animals.Any() || context.Comments.Any() || context.Requests.Any())
+        //    return;
 
-        var c1 = new Entities.Comment()
-        {
-            Name = "Lisa",
-            Text = "I think I saw Ginger today. He was playing with another cats in the woods.",
-        };
-        context.Comments.Add(c1);
+        //var a1 = new Entities.Animal()
+        //{
+        //    Kind = "Cat",
+        //    Breed = "Maine coon",
+        //    Description = "Ginger got lost somewhere near the local book shop",
+        //    Image = ".../imgs/Ginger.png",
+        //    LostSince = DateTime.Now,
+        //    Comments = new List<Entities.Comment>(),
 
-        var a1 = new Entities.Animal()
-        {
-            Kind = "Cat",
-            Breed = "Maine coon",
-            Description = "Ginger got lost somewhere near the local book shop",
-            Image = ".../imgs/Ginger.png",
-            LostSince = DateTime.Now,
-            Comments = new List<Entities.Comment>() { c1 },
+        //};
+        //context.Animals.Add(a1);
 
-        };
-        context.Animals.Add(a1);
+        //var c1 = new Entities.Comment()
+        //{
+        //    Animal = a1,
+        //    Name = "Lisa",
+        //    Text = "I think I saw Ginger today. He was playing with another cats in the woods.",
+        //};
+        //context.Comments.Add(c1);
+        //a1.Comments.Add(c1);
 
-        c1.Animal = a1;
+        //var a2 = new Entities.Animal()
+        //{
+        //    Kind = "Dog",
+        //    Breed = "Poodle",
+        //    Description = "Fluffy got lost somewhere near the local butcher shop",
+        //    Image = ".../imgs/Fluffy.png",
+        //    LostSince = DateTime.Now,
+        //    Comments = new List<Entities.Comment>(),
+        //};
+        //context.Animals.Add(a2);
 
-        var c2 = new Entities.Comment()
-        {
-            Name = "Mike",
-            Text = "Today Fluffy stole a piece of meat from a butcher shop!",
-        };
-        context.Comments.Add(c2);
+        //var c2 = new Entities.Comment()
+        //{
+        //    Animal = a2,
+        //    Name = "Mike",
+        //    Text = "Today Fluffy stole a piece of meat from a butcher shop!",
+        //};
+        //context.Comments.Add(c2);
+        //a2.Comments.Add(c2);
 
-        var a2 = new Entities.Animal()
-        {
-            Kind = "Dog",
-            Breed = "Poodle",
-            Description = "Fluffy got lost somewhere near the local butcher shop",
-            Image = ".../imgs/Fluffy.png",
-            LostSince = DateTime.Now
-        };
-        context.Animals.Add(a2);
+        //var r1 = new Entities.Request()
+        //{
+        //    Name = "Sophie",
+        //    Phone = "+7-950-987-42-58",
+        //    Animal = a1,
 
-        c2.Animal = a2;
-
-        var r1 = new Entities.Request()
-        {
-            Name = "Sophie",
-            Phone = "+7-950-987-42-58",
-            Animal = a1,
-
-        };
-        context.Requests.Add(r1);
+        //};
+        //context.Requests.Add(r1);
+        //a1.Requests.Add(r1);
 
         context.SaveChanges();
     }

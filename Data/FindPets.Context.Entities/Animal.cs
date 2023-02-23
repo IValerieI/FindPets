@@ -11,5 +11,7 @@ public class Animal : BaseEntity
     public DateTime LostSince { get; set; } = DateTime.Now;
 
     public virtual ICollection<Comment> Comments { get; set; }
+
+    public virtual ICollection<Request> Requests { get; set; }
 }
 
