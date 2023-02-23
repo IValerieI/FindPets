@@ -1,5 +1,6 @@
 using FindPets.Api;
 using FindPets.Api.Configuration;
+using FindPets.Context;
 using FindPets.Services.Settings;
 using FindPets.Settings;
 
@@ -16,6 +17,8 @@ var services = builder.Services;
 
 services.AddHttpContextAccessor();
 services.AddAppCors();
+
+services.AddAppDbContext(builder.Configuration);
 
 services.AddAppVersioning();
 services.AddAppHealthChecks();

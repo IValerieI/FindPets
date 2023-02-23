@@ -1,0 +1,12 @@
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context.Entities\bin\Debug\net6.0\FindPets.Context.Entities.deps.json
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context.Entities\bin\Debug\net6.0\FindPets.Context.Entities.dll
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context.Entities\bin\Debug\net6.0\FindPets.Context.Entities.pdb
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context.Entities\obj\Debug\net6.0\FindPets.Context.Entities.csproj.AssemblyReference.cache
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context.Entities\obj\Debug\net6.0\FindPets.Context.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context.Entities\obj\Debug\net6.0\FindPets.Context.Entities.AssemblyInfoInputs.cache
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context.Entities\obj\Debug\net6.0\FindPets.Context.Entities.AssemblyInfo.cs
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context.Entities\obj\Debug\net6.0\FindPets.Context.Entities.csproj.CoreCompileInputs.cache
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context.Entities\obj\Debug\net6.0\FindPets.Context.Entities.dll
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context.Entities\obj\Debug\net6.0\refint\FindPets.Context.Entities.dll
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context.Entities\obj\Debug\net6.0\FindPets.Context.Entities.pdb
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context.Entities\obj\Debug\net6.0\ref\FindPets.Context.Entities.dll

@@ -21,11 +21,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPets.Api.Settings", "Sy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPets.Common", "Shared\FindPets.Common\FindPets.Common.csproj", "{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPets.Settings", "Shared\FindPets.Settings\FindPets.Settings.csproj", "{00181E34-FF30-4250-A2BF-634A3399F38C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPets.Settings", "Shared\FindPets.Settings\FindPets.Settings.csproj", "{00181E34-FF30-4250-A2BF-634A3399F38C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPets.Services.Settings", "Services\FindPets.Services.Settings\FindPets.Services.Settings.csproj", "{C38C7085-AC62-4347-BFE9-E293A4A3BDF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPets.Services.Settings", "Services\FindPets.Services.Settings\FindPets.Services.Settings.csproj", "{C38C7085-AC62-4347-BFE9-E293A4A3BDF1}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0C255EC8-D542-48C1-9684-0BB8EA2BCA5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPets.Context", "Data\FindPets.Context\FindPets.Context.csproj", "{FDF2FDAF-EE6D-4F79-B0F1-6E6E233E2B5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPets.Context.Entities", "Data\FindPets.Context.Entities\FindPets.Context.Entities.csproj", "{D68786A2-2CCF-4C05-B698-CED13DFA1FFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{34299513-4763-43BD-9FF7-A313D63A15E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPets.Context.MigrationsMSSQL", "Data\Migrations\FindPets.Context.MigrationsMSSQL\FindPets.Context.MigrationsMSSQL.csproj", "{C28E4CCB-E490-485F-BB03-0C58A6F23E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPets.Context.MigrationsPostgreSQL", "Data\Migrations\FindPets.Context.MigrationsPostgreSQL\FindPets.Context.MigrationsPostgreSQL.csproj", "{A7F6EA40-5B2C-4E67-BAB3-4A372693328E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +67,22 @@ Global
 		{0C255EC8-D542-48C1-9684-0BB8EA2BCA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C255EC8-D542-48C1-9684-0BB8EA2BCA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C255EC8-D542-48C1-9684-0BB8EA2BCA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF2FDAF-EE6D-4F79-B0F1-6E6E233E2B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF2FDAF-EE6D-4F79-B0F1-6E6E233E2B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF2FDAF-EE6D-4F79-B0F1-6E6E233E2B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF2FDAF-EE6D-4F79-B0F1-6E6E233E2B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68786A2-2CCF-4C05-B698-CED13DFA1FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68786A2-2CCF-4C05-B698-CED13DFA1FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68786A2-2CCF-4C05-B698-CED13DFA1FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68786A2-2CCF-4C05-B698-CED13DFA1FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28E4CCB-E490-485F-BB03-0C58A6F23E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28E4CCB-E490-485F-BB03-0C58A6F23E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28E4CCB-E490-485F-BB03-0C58A6F23E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28E4CCB-E490-485F-BB03-0C58A6F23E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F6EA40-5B2C-4E67-BAB3-4A372693328E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F6EA40-5B2C-4E67-BAB3-4A372693328E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F6EA40-5B2C-4E67-BAB3-4A372693328E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F6EA40-5B2C-4E67-BAB3-4A372693328E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +95,11 @@ Global
 		{A43FFF38-F0F1-4C1C-B2B7-90B6A86F5DA4} = {BCB11393-F16A-4149-A864-833C0BD342E0}
 		{00181E34-FF30-4250-A2BF-634A3399F38C} = {BCB11393-F16A-4149-A864-833C0BD342E0}
 		{C38C7085-AC62-4347-BFE9-E293A4A3BDF1} = {B812E303-18AF-47D4-9605-FC447F6E82F5}
+		{FDF2FDAF-EE6D-4F79-B0F1-6E6E233E2B5D} = {FFDD46CF-29B6-429A-BF88-8F2A5CDBCF83}
+		{D68786A2-2CCF-4C05-B698-CED13DFA1FFA} = {FFDD46CF-29B6-429A-BF88-8F2A5CDBCF83}
+		{34299513-4763-43BD-9FF7-A313D63A15E7} = {FFDD46CF-29B6-429A-BF88-8F2A5CDBCF83}
+		{C28E4CCB-E490-485F-BB03-0C58A6F23E93} = {34299513-4763-43BD-9FF7-A313D63A15E7}
+		{A7F6EA40-5B2C-4E67-BAB3-4A372693328E} = {34299513-4763-43BD-9FF7-A313D63A15E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FC4CD73-98EE-4351-B5FB-197652800F60}
