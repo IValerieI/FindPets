@@ -23,6 +23,7 @@ services.AddAppDbContext(builder.Configuration);
 services.AddAppVersioning();
 services.AddAppHealthChecks();
 services.AddAppSwagger(mainSettings, swaggerSettings);
+services.AddAppAutoMappers();
 
 services.AddAppControllerAndViews();
 
@@ -35,6 +36,7 @@ var app = builder.Build();
 
 app.UseAppControllerAndViews();
 app.UseAppSwagger();
+
 
 app.UseAppCors();
 app.UseAppHealthChecks();

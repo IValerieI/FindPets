@@ -2,6 +2,7 @@
 
 
 using FindPets.Api.Settings;
+using FindPets.Services.Animals;
 using FindPets.Services.Settings;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -13,6 +14,7 @@ public static class Bootstrapper
             .AddMainSettings()
             .AddSwaggerSettings()
             .AddApiSpecialSettings()
+            .AddAnimalService()
             ;
 
         return services;

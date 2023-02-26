@@ -1,35 +1,66 @@
 name: dockercompose11437935434103813070
 services:
-  findpets.api:
+  findpets_api:
     build:
       context: C:\projects\.NET\DSR\СourseProject
       dockerfile: Systems/Api/FindPets.Api/Dockerfile
+    depends_on:
+      findpets_postgresql:
+        condition: service_started
+      findpets_redis:
+        condition: service_started
     environment:
-      ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_URLS: https://+:443;http://+:80
+      APISPECIAL__HELLOMESSAGE: Hello, FindPets from Docker!
+      DATABASE__CONNECTIONSTRING: Server=localhost;Port=25432;Database=FindPets;User
+        Id=postgres;Password=Passw0rd;
+      DATABASE__TYPE: PostgreSQL
+      MAIN__MAINURL: http://host.docker.internal:10000
+      SWAGGER__ENABLED: "true"
+      SWAGGER__OAUTHCLIENTID: ""
+      SWAGGER__OAUTHCLIENTSECRET: ""
     image: findpetsapi
     networks:
-      default: null
+      shared_findpets_net: null
     ports:
     - mode: ingress
       target: 80
+      published: "10000"
       protocol: tcp
+  findpets_postgresql:
+    environment:
+      POSTGRES_NAME: postgres
+      POSTGRES_PASSWORD: Passw0rd
+      POSTGRES_USER: postgres
+    image: postgres:14.1
+    networks:
+      shared_findpets_net: null
+    ports:
     - mode: ingress
-      target: 443
+      target: 5432
+      published: "5432"
       protocol: tcp
     volumes:
     - type: bind
-      source: C:\Users\Valeria\AppData\Roaming/Microsoft/UserSecrets
-      target: /root/.microsoft/usersecrets
-      read_only: true
+      source: C:\Users\Valeria\.docker-conf\postgresql\data
+      target: /var/lib/postgresql/data
       bind:
         create_host_path: true
+  findpets_redis:
+    image: redis
+    networks:
+      shared_findpets_net: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6379"
+      protocol: tcp
+    volumes:
     - type: bind
-      source: C:\Users\Valeria\AppData\Roaming/ASP.NET/Https
-      target: /root/.aspnet/https
-      read_only: true
+      source: C:\Users\Valeria\.docker-conf\redis\data
+      target: /data
       bind:
         create_host_path: true
 networks:
-  default:
-    name: dockercompose11437935434103813070_default
+  shared_findpets_net:
+    name: find_pets
+    driver: bridge

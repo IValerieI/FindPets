@@ -1,4 +1,5 @@
 C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context\bin\Debug\net6.0\FindPets.Context.deps.json
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context\bin\Debug\net6.0\FindPets.Context.runtimeconfig.json
 C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context\bin\Debug\net6.0\FindPets.Context.dll
 C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context\bin\Debug\net6.0\FindPets.Context.pdb
 C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context\bin\Debug\net6.0\FindPets.Context.Entities.dll
@@ -14,6 +15,5 @@ C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context\obj\Debug\net6.0\FindP
 C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context\obj\Debug\net6.0\FindPets.Context.dll
 C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context\obj\Debug\net6.0\refint\FindPets.Context.dll
 C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context\obj\Debug\net6.0\FindPets.Context.pdb
-C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context\obj\Debug\net6.0\ref\FindPets.Context.dll
-C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context\bin\Debug\net6.0\FindPets.Context.runtimeconfig.json
 C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context\obj\Debug\net6.0\FindPets.Context.genruntimeconfig.cache
+C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context\obj\Debug\net6.0\ref\FindPets.Context.dll

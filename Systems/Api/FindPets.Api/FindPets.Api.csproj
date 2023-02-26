@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
     <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="7.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.3">
@@ -37,6 +38,7 @@
     <ProjectReference Include="..\..\..\Data\FindPets.Context\FindPets.Context.csproj" />
     <ProjectReference Include="..\..\..\Data\Migrations\FindPets.Context.MigrationsMSSQL\FindPets.Context.MigrationsMSSQL.csproj" />
     <ProjectReference Include="..\..\..\Data\Migrations\FindPets.Context.MigrationsPostgreSQL\FindPets.Context.MigrationsPostgreSQL.csproj" />
+    <ProjectReference Include="..\..\..\Services\FindPets.Services.Animals\FindPets.Services.Animals.csproj" />
     <ProjectReference Include="..\..\..\Services\FindPets.Services.Settings\FindPets.Services.Settings.csproj" />
     <ProjectReference Include="..\..\..\Shared\FindPets.Common\FindPets.Common.csproj" />
     <ProjectReference Include="..\..\..\Shared\FindPets.Settings\FindPets.Settings.csproj" />

@@ -4,6 +4,17 @@
         <name>FindPets.Api</name>
     </assembly>
     <members>
+        <member name="T:FindPets.Api.Configuration.AutoMapperConfiguration">
+            <summary>
+            AutoMapper configuration
+            </summary>
+        </member>
+        <member name="M:FindPets.Api.Configuration.AutoMapperConfiguration.AddAppAutoMappers(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add automappers
+            </summary>
+            <param name="services">Services collection</param>
+        </member>
         <member name="T:FindPets.Api.Configuration.CorsConfiguration">
             <summary>
             CORS configuration
@@ -72,6 +83,14 @@
             Get data 2
             </summary>
             <response code="200">String items</response>
+        </member>
+        <member name="M:FindPets.API.Controllers.Animals.AnimalsController.GetAnimals(System.Int32,System.Int32)">
+            <summary>
+            Get animals
+            </summary>
+            <param name="offset">Offset to the first element</param>
+            <param name="limit">Count elements on the page</param>
+            <response code="200">List of AnimalResponses</response>
         </member>
     </members>
 </doc>
