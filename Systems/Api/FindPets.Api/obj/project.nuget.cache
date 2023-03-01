@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "60sr39JSQe3rLlESLz+cm3TQsfhYqmMxsS7gQmd7a78+8XDfVInf1cuP8PFsk6TOPxSyWEkQiaMwNj1Kz64cOg==",
+  "dgSpecHash": "kiluWaMboEekeQEh3+m0NyJE80x3dIvO3vbyZLbeZDH88VbHLLxxHxN2SIu42y1+UCKaa3JDpU1jxTWb9oAqzw==",
   "success": true,
   "projectFilePath": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\FindPets.Api.csproj",
   "expectedPackageFiles": [

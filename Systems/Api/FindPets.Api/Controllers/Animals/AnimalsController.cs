@@ -2,6 +2,7 @@
 
 using AutoMapper;
 using FindPets.API.Controllers.Animals.Models;
+using FindPets.API.Controllers.Models;
 //using FindPets.Common.Security;
 using FindPets.Services.Animals;
 //using Microsoft.AspNetCore.Authorization;
@@ -23,18 +24,6 @@ public class AnimalsController : ControllerBase
         this.animalService = animalService;
     }
 
-    //[HttpGet("")]
-    ////[Authorize(AppScopes.BooksRead)]
-    //public async Task<IEnumerable<AnimalResponse>> GetAnimals()
-    //{
-    //    var animals = await animalService.GetAnimals();
-    //    var response = mapper.Map<IEnumerable<AnimalResponse>>(animals);
-
-    //    return response;
-    //}
-
-
-
 
     /// <summary>
     /// Get animals
@@ -51,6 +40,32 @@ public class AnimalsController : ControllerBase
 
         return response;
     }
+
+
+    /// <summary>
+    /// Get animal by Id
+    /// </summary>
+    /// <response code="200">AnimalResponse></response>
+    [ProducesResponseType(typeof(AnimalResponse), 200)]
+    [HttpGet("{id}")]
+    public async Task<AnimalResponse> GetAnimalById([FromRoute] int id)
+    {
+        var animal = await animalService.GetAnimal(id);
+        var response = mapper.Map<AnimalResponse>(animal);
+
+        return response;
+    }
+
+    [HttpPost("")]
+    public async Task<AnimalResponse> AddAnimal([FromBody] AddAnimalRequest request)
+    {
+        var model = mapper.Map<AddAnimalModel>(request);
+        var animal = await animalService.AddAnimal(model);
+        var response = mapper.Map<AnimalResponse>(animal);
+
+        return response;
+    }
+
 
 
 

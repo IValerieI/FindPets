@@ -1,7 +1,6 @@
-﻿namespace FindPets.Api.Configuration;
+﻿using Serilog;
 
-using Serilog;
-
+namespace FindPets.Api.Configuration;
 /// <summary>
 /// Logger Configuration
 /// </summary>

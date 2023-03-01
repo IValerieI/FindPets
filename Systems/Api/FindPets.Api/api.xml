@@ -92,5 +92,11 @@
             <param name="limit">Count elements on the page</param>
             <response code="200">List of AnimalResponses</response>
         </member>
+        <member name="M:FindPets.API.Controllers.Animals.AnimalsController.GetAnimalById(System.Int32)">
+            <summary>
+            Get animal by Id
+            </summary>
+            <response code="200">AnimalResponse></response>
+        </member>
     </members>
 </doc>

@@ -8,7 +8,7 @@ public class Comment : BaseEntity
     public string Name { get; set; }
     public string Text { get; set; }
 
-    public DateTime Created { get; set; }
+    public DateTime Created { get; set; } = DateTime.UtcNow;
 
 }
 

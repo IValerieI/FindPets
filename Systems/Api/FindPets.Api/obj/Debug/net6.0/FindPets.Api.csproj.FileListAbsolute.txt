@@ -5,7 +5,6 @@ C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\Fi
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Api.exe
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Api.deps.json
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Api.runtimeconfig.json
-C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Api.dll
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Api.pdb
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\api.xml
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\AutoMapper.dll
@@ -150,3 +149,4 @@ C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\obj\Debug\net6.0\re
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\obj\Debug\net6.0\FindPets.Api.pdb
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\obj\Debug\net6.0\FindPets.Api.genruntimeconfig.cache
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\obj\Debug\net6.0\ref\FindPets.Api.dll
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Api.dll

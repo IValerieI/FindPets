@@ -45,4 +45,9 @@
     <ProjectReference Include="..\FindPets.Api.Settings\FindPets.Api.Settings.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="FindPets.Api">
+    </Reference>
+  </ItemGroup>
+
 </Project>

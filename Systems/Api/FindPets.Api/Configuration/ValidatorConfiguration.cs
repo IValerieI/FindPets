@@ -1,6 +1,5 @@
 ﻿namespace FindPets.Api.Configuration;
 
-
 using FindPets.Common;
 using FindPets.Common.Helpers;
 using FindPets.Common.Responses;

@@ -7,11 +7,11 @@ public class AnimalModel
 {
     public int Id { get; set; }
 
-    public string Kind { get; set; }
-    public string Breed { get; set; }
+    public string Kind { get; set; } = string.Empty;
+    public string Breed { get; set; } = string.Empty;
 
-    public string Description { get; set; }
-    public string Image { get; set; }
+    public string Description { get; set; } = string.Empty;
+    public string Image { get; set; } = string.Empty;
 }
 
 public class AnimalModelProfile : Profile

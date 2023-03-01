@@ -332,6 +332,9 @@
               },
               "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
                 "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
+              },
+              "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj"
               }
             }
           }
