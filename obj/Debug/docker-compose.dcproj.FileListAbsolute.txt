@@ -81,3 +81,5 @@ C:\projects\.NET\DSR\СourseProject\bin\Debug\FindPets.Context.pdb
 C:\projects\.NET\DSR\СourseProject\bin\Debug\FindPets.Context.Entities.pdb
 C:\projects\.NET\DSR\СourseProject\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\projects\.NET\DSR\СourseProject\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\projects\.NET\DSR\СourseProject\bin\Debug\FindPets.Services.Comments.dll
+C:\projects\.NET\DSR\СourseProject\bin\Debug\FindPets.Services.Comments.pdb

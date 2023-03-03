@@ -1,6 +1,7 @@
 ﻿namespace FindPets.Services.Animals;
 
 using AutoMapper;
+using FindPets.Common.Exceptions;
 using FindPets.Common.Validator;
 using FindPets.Context;
 using FindPets.Context.Entities;
@@ -12,16 +13,19 @@ public class AnimalService : IAnimalService
     private readonly IDbContextFactory<MainDbContext> contextFactory;
     private readonly IMapper mapper;
     private readonly IModelValidator<AddAnimalModel> addAnimalModelValidator;
+    private readonly IModelValidator<UpdateAnimalModel> updateAnimalModelValidator;
 
     public AnimalService(
         IDbContextFactory<MainDbContext> contextFactory,
         IMapper mapper,
-        IModelValidator<AddAnimalModel> addAnimalModelValidator
+        IModelValidator<AddAnimalModel> addAnimalModelValidator,
+        IModelValidator<UpdateAnimalModel> updateAnimalModelValidator
         )
     {
         this.contextFactory = contextFactory;
         this.mapper = mapper;
         this.addAnimalModelValidator = addAnimalModelValidator;
+        this.updateAnimalModelValidator = updateAnimalModelValidator;
     }
 
     public async Task<IEnumerable<AnimalModel>> GetAnimals(int offset = 0, int limit = 10)
@@ -66,6 +70,35 @@ public class AnimalService : IAnimalService
         context.SaveChanges();
 
         return mapper.Map<AnimalModel>(animal);
+    }
+
+
+    public async Task UpdateAnimal(int animalId, UpdateAnimalModel model)
+    {
+        updateAnimalModelValidator.Check(model);
+
+        using var context = await contextFactory.CreateDbContextAsync();
+
+        var animal = await context.Animals.FirstOrDefaultAsync(x => x.Id.Equals(animalId));
+
+        ProcessException.ThrowIf(() => animal is null, $"The animal (id: {animalId}) was not found");
+
+        animal = mapper.Map(model, animal);
+
+        context.Animals.Update(animal);
+        context.SaveChanges();
+    }
+
+
+    public async Task DeleteAnimal(int animalId)
+    {
+        using var context = await contextFactory.CreateDbContextAsync();
+
+        var animal = await context.Animals.FirstOrDefaultAsync(x => x.Id.Equals(animalId))
+            ?? throw new ProcessException($"The animal (id: {animalId}) was not found");
+
+        context.Remove(animal);
+        context.SaveChanges();
     }
 
 

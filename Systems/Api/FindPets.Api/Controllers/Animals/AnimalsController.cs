@@ -45,7 +45,7 @@ public class AnimalsController : ControllerBase
     /// <summary>
     /// Get animal by Id
     /// </summary>
-    /// <response code="200">AnimalResponse></response>
+    /// <response code="200">AnimalResponse</response>
     [ProducesResponseType(typeof(AnimalResponse), 200)]
     [HttpGet("{id}")]
     public async Task<AnimalResponse> GetAnimalById([FromRoute] int id)
@@ -56,6 +56,10 @@ public class AnimalsController : ControllerBase
         return response;
     }
 
+    /// <summary>
+    /// Add animal
+    /// </summary>
+    /// <response code="200">AddAnimalRequest</response>
     [HttpPost("")]
     public async Task<AnimalResponse> AddAnimal([FromBody] AddAnimalRequest request)
     {
@@ -67,6 +71,31 @@ public class AnimalsController : ControllerBase
     }
 
 
+    /// <summary>
+    /// Update animal by Id
+    /// </summary>
+    /// <response code="200">UpdateAnimalRequest</response>
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateAnimal([FromRoute] int id, [FromBody] UpdateAnimalRequest request)
+    {
+        var model = mapper.Map<UpdateAnimalModel>(request);
+        await animalService.UpdateAnimal(id, model);
+
+        return Ok();
+    }
+
+
+    /// <summary>
+    /// Delete animal by Id
+    /// </summary>
+    /// <response code="200">Deletes an animal by Id</response>
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteAnimal([FromRoute] int id)
+    {
+        await animalService.DeleteAnimal(id);
+
+        return Ok();
+    }
 
 
 }

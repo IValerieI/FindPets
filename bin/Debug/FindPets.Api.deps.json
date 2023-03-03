@@ -14,6 +14,7 @@
           "FindPets.Context.MigrationsMSSQL": "1.0.0",
           "FindPets.Context.MigrationsPostgreSQL": "1.0.0",
           "FindPets.Services.Animals": "1.0.0",
+          "FindPets.Services.Comments": "1.0.0",
           "FindPets.Services.Settings": "1.0.0",
           "FindPets.Settings": "1.0.0",
           "FluentValidation.AspNetCore": "11.2.2",
@@ -1350,6 +1351,18 @@
           "FindPets.Services.Animals.dll": {}
         }
       },
+      "FindPets.Services.Comments/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "FindPets.Common": "1.0.0",
+          "FindPets.Context": "1.0.0",
+          "FindPets.Context.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.3"
+        },
+        "runtime": {
+          "FindPets.Services.Comments.dll": {}
+        }
+      },
       "FindPets.Services.Settings/1.0.0": {
         "dependencies": {
           "FindPets.Settings": "1.0.0",
@@ -2265,6 +2278,11 @@
       "sha512": ""
     },
     "FindPets.Services.Animals/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FindPets.Services.Comments/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

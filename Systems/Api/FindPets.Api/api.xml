@@ -96,7 +96,48 @@
             <summary>
             Get animal by Id
             </summary>
-            <response code="200">AnimalResponse></response>
+            <response code="200">AnimalResponse</response>
+        </member>
+        <member name="M:FindPets.API.Controllers.Animals.AnimalsController.AddAnimal(FindPets.API.Controllers.Models.AddAnimalRequest)">
+            <summary>
+            Add animal
+            </summary>
+            <response code="200">AddAnimalRequest</response>
+        </member>
+        <member name="M:FindPets.API.Controllers.Animals.AnimalsController.UpdateAnimal(System.Int32,FindPets.API.Controllers.Models.UpdateAnimalRequest)">
+            <summary>
+            Update animal by Id
+            </summary>
+            <response code="200">UpdateAnimalRequest</response>
+        </member>
+        <member name="M:FindPets.API.Controllers.Animals.AnimalsController.DeleteAnimal(System.Int32)">
+            <summary>
+            Delete animal by Id
+            </summary>
+            <response code="200">Deletes an animal by Id</response>
+        </member>
+        <member name="P:FindPets.API.Controllers.Models.CommentResponse.Id">
+            <summary>
+            Comment Id
+            </summary>
+        </member>
+        <member name="T:FindPets.API.Controllers.Comments.CommentsController">
+            <summary>
+            Comments controller
+            </summary>
+            <response code="400">Bad Request</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+            <response code="404">Not Found</response>
+        </member>
+        <member name="M:FindPets.API.Controllers.Comments.CommentsController.GetComments(System.Int32,System.Int32)">
+            <summary>
+            Get comments by animal Id
+            </summary>
+            <param name="animalId">Animal Id</param>
+            <param name="offset">Offset to the first element</param>
+            <param name="limit">Count elements on the page</param>
+            <response code="200">List of CommentResponses</response>
         </member>
     </members>
 </doc>
