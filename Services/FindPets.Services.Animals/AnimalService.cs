@@ -7,7 +7,6 @@ using FindPets.Context;
 using FindPets.Context.Entities;
 using Microsoft.EntityFrameworkCore;
 
-
 public class AnimalService : IAnimalService
 {
     private readonly IDbContextFactory<MainDbContext> contextFactory;
@@ -51,12 +50,29 @@ public class AnimalService : IAnimalService
     {
         using var context = await contextFactory.CreateDbContextAsync();
 
-        var book = await context.Animals.FirstOrDefaultAsync(x => x.Id.Equals(id));
+        var animal = await context
+            .Animals
+            .Include(x => x.Comments)
+            .FirstOrDefaultAsync(x => x.Id.Equals(id));
 
-        var data = mapper.Map<AnimalModel>(book);
+        var data = mapper.Map<AnimalModel>(animal);
 
         return data;
     }
+
+    //public async Task<AnimalModel> GetAnimalWithComments(int id)
+    //{
+    //    using var context = await contextFactory.CreateDbContextAsync();
+
+    //    var animalAndComments = await context
+    //        .Animals
+    //        .Include(x => x.Comments)
+    //        .FirstOrDefaultAsync(x => x.Id.Equals(id));
+
+    //    var data = mapper.Map<AnimalModel>(animalAndComments);
+
+    //    return data;
+    //}
 
 
     public async Task<AnimalModel> AddAnimal(AddAnimalModel model)

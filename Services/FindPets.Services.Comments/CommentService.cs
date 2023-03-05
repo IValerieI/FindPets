@@ -28,7 +28,7 @@ public class CommentService : ICommentService
 
         var comments = context
             .Comments
-            .Include(x => x.Animal)
+            //.Include(x => x.Animal)
             .AsQueryable();
 
         comments = comments

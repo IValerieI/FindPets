@@ -12,6 +12,8 @@ public class AnimalModel
 
     public string Description { get; set; } = string.Empty;
     public string Image { get; set; } = string.Empty;
+
+    public virtual ICollection<Comment> Comments { get; set; }
 }
 
 public class AnimalModelProfile : Profile

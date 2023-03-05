@@ -87,7 +87,7 @@ public static class DbSeeder
 
         var c1 = new Entities.Comment()
         {
-            Animal = a1,
+            //Animal = a1,
             Name = "Lisa",
             Text = "I think I saw Ginger today. He was playing with another cats in the woods.",
         };
@@ -107,7 +107,7 @@ public static class DbSeeder
 
         var c2 = new Entities.Comment()
         {
-            Animal = a2,
+            //Animal = a2,
             Name = "Mike",
             Text = "Today Fluffy stole a piece of meat from a butcher shop!",
         };
