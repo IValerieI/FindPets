@@ -16,12 +16,14 @@ public class AnimalsController : ControllerBase
     private readonly IMapper mapper;
     private readonly ILogger<AnimalsController> logger;
     private readonly IAnimalService animalService;
+    private readonly IWebHostEnvironment webHostEnvironment;
 
-    public AnimalsController(IMapper mapper, ILogger<AnimalsController> logger, IAnimalService animalService)
+    public AnimalsController(IMapper mapper, ILogger<AnimalsController> logger, IAnimalService animalService, IWebHostEnvironment webHostEnvironment)
     {
         this.mapper = mapper;
         this.logger = logger;
         this.animalService = animalService;
+        this.webHostEnvironment = webHostEnvironment;
     }
 
 
@@ -37,6 +39,11 @@ public class AnimalsController : ControllerBase
     {
         var animals = await animalService.GetAnimals(offset, limit);
         var response = mapper.Map<IEnumerable<AnimalResponse>>(animals);
+
+        //foreach (AnimalResponse res in response)
+        //{
+        //    res.Image = "show img";
+        //}
 
         return response;
     }
@@ -59,16 +66,100 @@ public class AnimalsController : ControllerBase
     /// <summary>
     /// Add animal
     /// </summary>
+    ///// <param name="uploadedFile"></param>
+    /// <param name="request"></param>
     /// <response code="200">AddAnimalRequest</response>
+    //[Produces("multipart/form-data")]
     [HttpPost("")]
     public async Task<AnimalResponse> AddAnimal([FromBody] AddAnimalRequest request)
     {
+
+        //if (uploadedFile != null)
+        //{
+        //    string path = "/photos/" + uploadedFile.FileName;
+        //    using (var fileStream = new FileStream(webHostEnvironment.WebRootPath + path, FileMode.Create))
+        //    {
+        //        await uploadedFile.CopyToAsync(fileStream);
+        //    }
+        //    request.Image = path;
+        //}
+
+        //request.Image = await Upload(uploadedFile);
+
+
+
         var model = mapper.Map<AddAnimalModel>(request);
         var animal = await animalService.AddAnimal(model);
         var response = mapper.Map<AnimalResponse>(animal);
 
+
         return response;
     }
+
+    /// <summary>
+    /// File upload
+    /// </summary>
+    /// <param name="file"></param>
+    /// <returns></returns>
+    [HttpPost]
+    [Route("test/")]
+    public async Task<string> Upload(IFormFile uploadedFile/*, AddAnimalRequest request*/)
+    {
+
+        if (uploadedFile != null)
+        {
+            string path = "/photos/" + uploadedFile.FileName;
+            using (var fileStream = new FileStream(webHostEnvironment.WebRootPath + path, FileMode.Create))
+            {
+                await uploadedFile.CopyToAsync(fileStream);
+            }
+            //request.Image = path;
+            Console.WriteLine(path);
+
+            return path;
+        }
+
+        //var model = mapper.Map<AddAnimalModel>(request);
+        //var animal = await animalService.AddAnimal(model);
+
+        return "why";
+        //return Ok($"{file.FileName} is {file.Length} bytes long");
+    }
+
+    /// <summary>
+    /// File upload
+    /// </summary>
+    [HttpPost]
+    [Route("testAnimal/")]
+    public async Task<AnimalResponse> UploadAnimal([FromForm] AddAnimalRequest request)
+    {
+
+        if (request.File != null)
+        {
+            string path = "/photos/" + request.File.FileName;
+            using (var fileStream = new FileStream(webHostEnvironment.WebRootPath + path, FileMode.Create))
+            {
+                await request.File.CopyToAsync(fileStream);
+            }
+            request.Image = path;
+            Console.WriteLine(path);
+
+            var model = mapper.Map<AddAnimalModel>(request);
+            var animal = await animalService.AddAnimal(model);
+            var response = mapper.Map<AnimalResponse>(animal);
+
+            //return path;
+            return response;
+        }
+
+        //var model = mapper.Map<AddAnimalModel>(request);
+        //var animal = await animalService.AddAnimal(model);
+
+        return null;
+        //return "why";
+        //return Ok($"{file.FileName} is {file.Length} bytes long");
+    }
+
 
 
     /// <summary>

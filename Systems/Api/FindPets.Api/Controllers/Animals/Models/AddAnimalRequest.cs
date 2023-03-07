@@ -10,7 +10,11 @@ public class AddAnimalRequest
     public string Breed { get; set; } = string.Empty;
 
     public string Description { get; set; } = string.Empty;
-    public string Image { get; set; } = string.Empty;
+    public string Image { get; set; } //= string.Empty;
+
+    public IFormFile File { get; set; }
+
+
 }
 
 public class AddAnimalResponseValidator : AbstractValidator<AddAnimalRequest>
@@ -39,5 +43,6 @@ public class AddAnimalRequestProfile : Profile
     public AddAnimalRequestProfile()
     {
         CreateMap<AddAnimalRequest, AddAnimalModel>();
+        //.ForMember(i => i.Image, a => a.MapFrom(f => f.File));
     }
 }

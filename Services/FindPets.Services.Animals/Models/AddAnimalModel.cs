@@ -11,6 +11,10 @@ public class AddAnimalModel
 
     public string Description { get; set; } = string.Empty;
     public string Image { get; set; } = string.Empty;
+
+    //public IFormFile File { get; set; }
+
+
 }
 
 public class AddAnimalModelValidator : AbstractValidator<AddAnimalModel>

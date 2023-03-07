@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SsHDoP3rV6KNRWSZLg2e9cez5mkvhEI+nqra1tLRcSg=",
+  "Hash": "6cmAQmRYCm0xBfrur5GVDhtTEMoDvs5Cy+wrxj25i7U=",
   "Source": "FindPets.Api",
   "BasePath": "_content/FindPets.Api",
   "Mode": "Default",
@@ -950,6 +950,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\download.jpg",
+      "SourceId": "FindPets.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "BasePath": "_content/FindPets.Api",
+      "RelativePath": "photos/download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\download.jpg"
+    },
+    {
+      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\Oryctolagus_cuniculus_Rcdo.jpg",
+      "SourceId": "FindPets.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "BasePath": "_content/FindPets.Api",
+      "RelativePath": "photos/Oryctolagus_cuniculus_Rcdo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\Oryctolagus_cuniculus_Rcdo.jpg"
+    },
+    {
+      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\rabbit.jpg",
+      "SourceId": "FindPets.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "BasePath": "_content/FindPets.Api",
+      "RelativePath": "photos/rabbit.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\rabbit.jpg"
     }
   ]
 }

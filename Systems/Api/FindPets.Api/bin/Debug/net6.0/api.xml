@@ -99,10 +99,20 @@
             <response code="200">AnimalResponse</response>
         </member>
         <member name="M:FindPets.API.Controllers.Animals.AnimalsController.AddAnimal(FindPets.API.Controllers.Models.AddAnimalRequest)">
-            <summary>
-            Add animal
-            </summary>
+            <param name="request"></param>
             <response code="200">AddAnimalRequest</response>
+        </member>
+        <member name="M:FindPets.API.Controllers.Animals.AnimalsController.Upload(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            File upload
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FindPets.API.Controllers.Animals.AnimalsController.UploadAnimal(FindPets.API.Controllers.Models.AddAnimalRequest)">
+            <summary>
+            File upload
+            </summary>
         </member>
         <member name="M:FindPets.API.Controllers.Animals.AnimalsController.UpdateAnimal(System.Int32,FindPets.API.Controllers.Models.UpdateAnimalRequest)">
             <summary>

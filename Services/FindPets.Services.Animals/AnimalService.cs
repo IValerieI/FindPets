@@ -81,6 +81,9 @@ public class AnimalService : IAnimalService
 
         using var context = await contextFactory.CreateDbContextAsync();
 
+
+
+
         var animal = mapper.Map<Animal>(model);
         await context.Animals.AddAsync(animal);
         context.SaveChanges();
