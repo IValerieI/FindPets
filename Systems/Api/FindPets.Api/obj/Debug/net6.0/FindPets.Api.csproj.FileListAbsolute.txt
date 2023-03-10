@@ -152,3 +152,5 @@ C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\obj\Debug\net6.0\re
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Api.dll
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Services.Comments.dll
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Services.Comments.pdb
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Services.Requests.dll
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Services.Requests.pdb

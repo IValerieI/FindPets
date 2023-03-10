@@ -34,7 +34,7 @@ public class CommentsController : ControllerBase
 
 
     /// <summary>
-    /// Get comments by animal Id
+    /// Get comments
     /// </summary>
     /// <param name="animalId">Animal Id</param>
     /// <param name="offset">Offset to the first element</param>
@@ -49,6 +49,27 @@ public class CommentsController : ControllerBase
 
         return response;
     }
+
+
+
+    /// <summary>
+    /// Add comment
+    /// </summary>
+    /// <param name="request"></param>
+    /// <response code="200">AddCommentRequest</response>
+    //[Produces("multipart/form-data")]
+    [HttpPost("")]
+    //[Route("testAnimal/")]
+    public async Task<CommentResponse> AddComment([FromForm] AddCommentRequest request)
+    {
+        //request.Created = DateTime.UtcNow;
+        var model = mapper.Map<AddCommentModel>(request);
+        var comment = await commentService.AddComment(model);
+        var response = mapper.Map<CommentResponse>(comment);
+
+        return response;
+    }
+
 
 }
 

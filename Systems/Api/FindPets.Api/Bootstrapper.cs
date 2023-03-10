@@ -4,6 +4,7 @@
 using FindPets.Api.Settings;
 using FindPets.Services.Animals;
 using FindPets.Services.Comments;
+using FindPets.Services.Requests;
 using FindPets.Services.Settings;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -17,6 +18,7 @@ public static class Bootstrapper
             .AddApiSpecialSettings()
             .AddAnimalService()
             .AddCommentService()
+            .AddRequestService()
             ;
 
         return services;

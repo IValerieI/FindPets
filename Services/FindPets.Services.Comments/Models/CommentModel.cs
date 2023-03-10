@@ -8,7 +8,7 @@ public class CommentModel
     public int Id { get; set; }
     public int AnimalId { get; set; }
 
-    public string Animal { get; set; } = string.Empty;
+    //public string Animal { get; set; } = string.Empty;
 
     public string Name { get; set; } = string.Empty;
     public string Text { get; set; } = string.Empty;

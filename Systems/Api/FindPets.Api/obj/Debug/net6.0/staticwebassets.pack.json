@@ -221,8 +221,16 @@
       "PackagePath": "staticwebassets\\photos\\Oryctolagus_cuniculus_Rcdo.jpg"
     },
     {
+      "Id": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\bird.jpg",
+      "PackagePath": "staticwebassets\\photos\\bird.jpg"
+    },
+    {
       "Id": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\download.jpg",
       "PackagePath": "staticwebassets\\photos\\download.jpg"
+    },
+    {
+      "Id": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\pvj1d4u0.rrx",
+      "PackagePath": "staticwebassets\\photos\\pvj1d4u0.rrx"
     },
     {
       "Id": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\rabbit.jpg",

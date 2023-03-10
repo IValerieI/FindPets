@@ -461,6 +461,85 @@
         }
       }
     },
+    "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj",
+        "projectName": "FindPets.Services.Requests",
+        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj",
+        "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Valeria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj"
+              },
+              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
+              },
+              "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -819,6 +898,9 @@
               },
               "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj": {
                 "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj"
+              },
+              "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj"
               },
               "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj": {
                 "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj"

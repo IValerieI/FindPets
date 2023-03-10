@@ -1,24 +1,26 @@
 ﻿namespace FindPets.Services.Comments;
 
 using AutoMapper;
+using FindPets.Common.Validator;
 using FindPets.Context;
+using FindPets.Context.Entities;
 using Microsoft.EntityFrameworkCore;
 
 public class CommentService : ICommentService
 {
     private readonly IDbContextFactory<MainDbContext> contextFactory;
     private readonly IMapper mapper;
-    //private readonly IModelValidator<AddCommentModel> addCommentModelValidator;
+    private readonly IModelValidator<AddCommentModel> addCommentModelValidator;
 
     public CommentService(
         IDbContextFactory<MainDbContext> contextFactory,
-        IMapper mapper
-        //IModelValidator<AddCommentModel> addCommentModelValidator
+        IMapper mapper,
+        IModelValidator<AddCommentModel> addCommentModelValidator
         )
     {
         this.contextFactory = contextFactory;
         this.mapper = mapper;
-        //this.addCommentModelValidator = addCommentModelValidator;
+        this.addCommentModelValidator = addCommentModelValidator;
     }
 
 
@@ -42,10 +44,19 @@ public class CommentService : ICommentService
 
 
 
-    //public async Task<CommentModel> AddComment(int animalId, AddCommentModel model)
-    //{
-    //    throw new NotImplementedException();
-    //}
+    public async Task<CommentModel> AddComment(AddCommentModel model)
+    {
+        addCommentModelValidator.Check(model);
+
+        using var context = await contextFactory.CreateDbContextAsync();
+
+        var comment = mapper.Map<Comment>(model);
+        await context.Comments.AddAsync(comment);
+        context.SaveChanges();
+
+        return mapper.Map<CommentModel>(comment);
+
+    }
 
 
 }

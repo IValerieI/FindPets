@@ -2191,6 +2191,23 @@
           "bin/placeholder/FindPets.Services.Comments.dll": {}
         }
       },
+      "FindPets.Services.Requests/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "FindPets.Common": "1.0.0",
+          "FindPets.Context": "1.0.0",
+          "FindPets.Context.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.3"
+        },
+        "compile": {
+          "bin/placeholder/FindPets.Services.Requests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FindPets.Services.Requests.dll": {}
+        }
+      },
       "FindPets.Services.Settings/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -5957,6 +5974,11 @@
       "path": "../../../Services/FindPets.Services.Comments/FindPets.Services.Comments.csproj",
       "msbuildProject": "../../../Services/FindPets.Services.Comments/FindPets.Services.Comments.csproj"
     },
+    "FindPets.Services.Requests/1.0.0": {
+      "type": "project",
+      "path": "../../../Services/FindPets.Services.Requests/FindPets.Services.Requests.csproj",
+      "msbuildProject": "../../../Services/FindPets.Services.Requests/FindPets.Services.Requests.csproj"
+    },
     "FindPets.Services.Settings/1.0.0": {
       "type": "project",
       "path": "../../../Services/FindPets.Services.Settings/FindPets.Services.Settings.csproj",
@@ -5977,6 +5999,7 @@
       "FindPets.Context.MigrationsPostgreSQL >= 1.0.0",
       "FindPets.Services.Animals >= 1.0.0",
       "FindPets.Services.Comments >= 1.0.0",
+      "FindPets.Services.Requests >= 1.0.0",
       "FindPets.Services.Settings >= 1.0.0",
       "FindPets.Settings >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.2.2",
@@ -6039,6 +6062,9 @@
             },
             "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj": {
               "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj"
+            },
+            "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj": {
+              "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj"
             },
             "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj": {
               "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj"

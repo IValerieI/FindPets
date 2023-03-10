@@ -98,21 +98,18 @@
             </summary>
             <response code="200">AnimalResponse</response>
         </member>
+        <member name="M:FindPets.API.Controllers.Animals.AnimalsController.Photo(System.Int32)">
+            <summary>
+            Get photo of animal by Id
+            </summary>
+            <response code="200">Photo of animal</response>
+        </member>
         <member name="M:FindPets.API.Controllers.Animals.AnimalsController.AddAnimal(FindPets.API.Controllers.Models.AddAnimalRequest)">
+            <summary>
+            Add animal
+            </summary>
             <param name="request"></param>
             <response code="200">AddAnimalRequest</response>
-        </member>
-        <member name="M:FindPets.API.Controllers.Animals.AnimalsController.Upload(Microsoft.AspNetCore.Http.IFormFile)">
-            <summary>
-            File upload
-            </summary>
-            <param name="file"></param>
-            <returns></returns>
-        </member>
-        <member name="M:FindPets.API.Controllers.Animals.AnimalsController.UploadAnimal(FindPets.API.Controllers.Models.AddAnimalRequest)">
-            <summary>
-            File upload
-            </summary>
         </member>
         <member name="M:FindPets.API.Controllers.Animals.AnimalsController.UpdateAnimal(System.Int32,FindPets.API.Controllers.Models.UpdateAnimalRequest)">
             <summary>
@@ -126,11 +123,6 @@
             </summary>
             <response code="200">Deletes an animal by Id</response>
         </member>
-        <member name="P:FindPets.API.Controllers.Models.CommentResponse.Id">
-            <summary>
-            Comment Id
-            </summary>
-        </member>
         <member name="T:FindPets.API.Controllers.Comments.CommentsController">
             <summary>
             Comments controller
@@ -142,12 +134,34 @@
         </member>
         <member name="M:FindPets.API.Controllers.Comments.CommentsController.GetComments(System.Int32,System.Int32)">
             <summary>
-            Get comments by animal Id
+            Get comments
             </summary>
             <param name="animalId">Animal Id</param>
             <param name="offset">Offset to the first element</param>
             <param name="limit">Count elements on the page</param>
             <response code="200">List of CommentResponses</response>
+        </member>
+        <member name="M:FindPets.API.Controllers.Comments.CommentsController.AddComment(FindPets.API.Controllers.Models.AddCommentRequest)">
+            <summary>
+            Add comment
+            </summary>
+            <param name="request"></param>
+            <response code="200">AddCommentRequest</response>
+        </member>
+        <member name="M:FindPets.API.Controllers.Requests.RequestsController.AddAnimal(FindPets.API.Controllers.Models.AddRequestRequest)">
+            <summary>
+            Add request
+            </summary>
+            <param name="request"></param>
+            <response code="200">AddRequestRequest</response>
+        </member>
+        <member name="M:FindPets.API.Controllers.Requests.RequestsController.GetRequests(System.Int32,System.Int32)">
+            <summary>
+            Get requests
+            </summary>
+            <param name="offset">Offset to the first element</param>
+            <param name="limit">Count elements on the page</param>
+            <response code="200">List of AnimalResponses</response>
         </member>
     </members>
 </doc>
