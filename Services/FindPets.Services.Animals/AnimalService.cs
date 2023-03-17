@@ -5,6 +5,7 @@ using FindPets.Common.Exceptions;
 using FindPets.Common.Validator;
 using FindPets.Context;
 using FindPets.Context.Entities;
+using FindPets.Services.EmailSender;
 using Microsoft.EntityFrameworkCore;
 
 public class AnimalService : IAnimalService
@@ -70,6 +71,9 @@ public class AnimalService : IAnimalService
         var animal = mapper.Map<Animal>(model);
         await context.Animals.AddAsync(animal);
         context.SaveChangesAsync();
+
+        EmailSenderService serv = new EmailSenderService();
+        serv.SendEmail("New lost animal is a " + model.Kind);
 
         return mapper.Map<AnimalModel>(animal);
     }

@@ -19,3 +19,5 @@ C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\obj\Debug
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\obj\Debug\net6.0\refint\FindPets.Services.Animals.dll
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\obj\Debug\net6.0\FindPets.Services.Animals.pdb
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\obj\Debug\net6.0\ref\FindPets.Services.Animals.dll
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Services.EmailSender.dll
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Services.EmailSender.pdb

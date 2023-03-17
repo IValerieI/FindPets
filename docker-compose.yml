@@ -7,6 +7,9 @@ services:
 
   findpets_redis:
     image: redis
+  
+  findpets_rabbitmq:
+    image: rabbitmq:management
 
   findpets_api:
     image: ${DOCKER_REGISTRY-}findpetsapi

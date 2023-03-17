@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R9u02Nkp5FNt4ubELWUG6V7bmKcVRuw2nPXaOEVtGIM=",
+  "Hash": "qm9oREmuxAbW/Q/e5Vz7AfRMomPEkA9cWsbDYeidW0Y=",
   "Source": "FindPets.Api",
   "BasePath": "_content/FindPets.Api",
   "Mode": "Default",
@@ -952,6 +952,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\b4pkqup2.pvr",
+      "SourceId": "FindPets.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "BasePath": "_content/FindPets.Api",
+      "RelativePath": "photos/b4pkqup2.pvr",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\b4pkqup2.pvr"
+    },
+    {
       "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\bird.jpg",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
@@ -984,6 +1001,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\photos\\download.jpg"
+    },
+    {
+      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\eqwpoa3d.srv",
+      "SourceId": "FindPets.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "BasePath": "_content/FindPets.Api",
+      "RelativePath": "photos/eqwpoa3d.srv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\eqwpoa3d.srv"
     },
     {
       "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\Oryctolagus_cuniculus_Rcdo.jpg",

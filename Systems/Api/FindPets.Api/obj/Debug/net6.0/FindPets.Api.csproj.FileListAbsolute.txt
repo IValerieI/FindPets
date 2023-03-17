@@ -154,3 +154,8 @@ C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\Fi
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Services.Comments.pdb
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Services.Requests.dll
 C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Services.Requests.pdb
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\MailKit.dll
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\MimeKit.dll
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Services.EmailSender.dll
+C:\projects\.NET\DSR\СourseProject\Systems\Api\FindPets.Api\bin\Debug\net6.0\FindPets.Services.EmailSender.pdb
