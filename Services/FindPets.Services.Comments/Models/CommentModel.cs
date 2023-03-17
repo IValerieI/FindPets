@@ -19,6 +19,5 @@ public class CommentModelProfile : Profile
     public CommentModelProfile()
     {
         CreateMap<Comment, CommentModel>();
-        //.ForMember(dest => dest.Animal, opt => opt.MapFrom(src => src.Animal.Kind));
     }
 }

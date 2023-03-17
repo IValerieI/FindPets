@@ -60,20 +60,6 @@ public class AnimalService : IAnimalService
         return data;
     }
 
-    //public async Task<AnimalModel> GetAnimalWithComments(int id)
-    //{
-    //    using var context = await contextFactory.CreateDbContextAsync();
-
-    //    var animalAndComments = await context
-    //        .Animals
-    //        .Include(x => x.Comments)
-    //        .FirstOrDefaultAsync(x => x.Id.Equals(id));
-
-    //    var data = mapper.Map<AnimalModel>(animalAndComments);
-
-    //    return data;
-    //}
-
 
     public async Task<AnimalModel> AddAnimal(AddAnimalModel model)
     {
@@ -83,7 +69,7 @@ public class AnimalService : IAnimalService
 
         var animal = mapper.Map<Animal>(model);
         await context.Animals.AddAsync(animal);
-        context.SaveChanges();
+        context.SaveChangesAsync();
 
         return mapper.Map<AnimalModel>(animal);
     }
@@ -102,7 +88,7 @@ public class AnimalService : IAnimalService
         animal = mapper.Map(model, animal);
 
         context.Animals.Update(animal);
-        context.SaveChanges();
+        context.SaveChangesAsync();
     }
 
 
@@ -114,7 +100,7 @@ public class AnimalService : IAnimalService
             ?? throw new ProcessException($"The animal (id: {animalId}) was not found");
 
         context.Remove(animal);
-        context.SaveChanges();
+        context.SaveChangesAsync();
     }
 
 
