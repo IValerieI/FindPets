@@ -2,5 +2,5 @@
 
 public interface IEmailSenderService
 {
-    Task SendEmail(string message);
+    Task SendEmail(EmailModel model);
 }

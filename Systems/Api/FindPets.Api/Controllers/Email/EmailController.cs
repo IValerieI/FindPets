@@ -1,6 +1,6 @@
-﻿namespace FindPets.Api.Controllers.Email
+﻿namespace FindPets.Api.Controllers.Email;
+
+public class EmailController
 {
-    public class EmailController
-    {
-    }
+
 }

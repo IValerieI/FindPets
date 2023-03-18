@@ -1606,6 +1606,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "MailKit": "3.6.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0"
         },
         "compile": {
