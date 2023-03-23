@@ -2294,6 +2294,7 @@
           "FindPets.Common": "1.0.0",
           "FindPets.Context": "1.0.0",
           "FindPets.Context.Entities": "1.0.0",
+          "FindPets.Services.EmailSender": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.3"
         },
         "compile": {
