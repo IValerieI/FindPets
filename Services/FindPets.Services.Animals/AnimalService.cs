@@ -5,6 +5,7 @@ using FindPets.Common.Exceptions;
 using FindPets.Common.Validator;
 using FindPets.Context;
 using FindPets.Context.Entities;
+using FindPets.Services.EmailSender;
 using Microsoft.EntityFrameworkCore;
 
 public class AnimalService : IAnimalService

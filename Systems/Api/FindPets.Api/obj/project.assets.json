@@ -2243,6 +2243,7 @@
           "FindPets.Common": "1.0.0",
           "FindPets.Context": "1.0.0",
           "FindPets.Context.Entities": "1.0.0",
+          "FindPets.Services.EmailSender": "1.0.0",
           "FluentValidation": "11.5.0",
           "Microsoft.EntityFrameworkCore": "7.0.3"
         },
@@ -6212,6 +6213,7 @@
       "FindPets.Context.MigrationsPostgreSQL >= 1.0.0",
       "FindPets.Services.Animals >= 1.0.0",
       "FindPets.Services.Comments >= 1.0.0",
+      "FindPets.Services.EmailSender >= 1.0.0",
       "FindPets.Services.Requests >= 1.0.0",
       "FindPets.Services.Settings >= 1.0.0",
       "FindPets.Settings >= 1.0.0",
@@ -6275,6 +6277,9 @@
             },
             "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj": {
               "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj"
+            },
+            "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj": {
+              "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj"
             },
             "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj": {
               "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj"

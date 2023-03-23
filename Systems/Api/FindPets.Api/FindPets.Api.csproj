@@ -12,6 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Controllers\Email\Models\" />
     <Folder Include="Pages\" />
     <Folder Include="wwwroot\photos\" />
   </ItemGroup>
@@ -40,6 +41,7 @@
     <ProjectReference Include="..\..\..\Data\Migrations\FindPets.Context.MigrationsPostgreSQL\FindPets.Context.MigrationsPostgreSQL.csproj" />
     <ProjectReference Include="..\..\..\Services\FindPets.Services.Animals\FindPets.Services.Animals.csproj" />
     <ProjectReference Include="..\..\..\Services\FindPets.Services.Comments\FindPets.Services.Comments.csproj" />
+    <ProjectReference Include="..\..\..\Services\FindPets.Services.EmailSender\FindPets.Services.EmailSender.csproj" />
     <ProjectReference Include="..\..\..\Services\FindPets.Services.Requests\FindPets.Services.Requests.csproj" />
     <ProjectReference Include="..\..\..\Services\FindPets.Services.Settings\FindPets.Services.Settings.csproj" />
     <ProjectReference Include="..\..\..\Shared\FindPets.Common\FindPets.Common.csproj" />

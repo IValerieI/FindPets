@@ -333,6 +333,9 @@
               "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
                 "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
               },
+              "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj"
+              },
               "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
                 "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj"
               }
@@ -974,6 +977,9 @@
               },
               "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj": {
                 "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj"
+              },
+              "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj"
               },
               "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj": {
                 "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj"
