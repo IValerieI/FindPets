@@ -15,6 +15,7 @@
     <ProjectReference Include="..\..\Data\FindPets.Context.Entities\FindPets.Context.Entities.csproj" />
     <ProjectReference Include="..\..\Data\FindPets.Context\FindPets.Context.csproj" />
     <ProjectReference Include="..\..\Shared\FindPets.Common\FindPets.Common.csproj" />
+    <ProjectReference Include="..\FindPets.Services.EmailSender\FindPets.Services.EmailSender.csproj" />
   </ItemGroup>
 
 </Project>

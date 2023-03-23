@@ -13,18 +13,21 @@ public class AnimalService : IAnimalService
     private readonly IMapper mapper;
     private readonly IModelValidator<AddAnimalModel> addAnimalModelValidator;
     private readonly IModelValidator<UpdateAnimalModel> updateAnimalModelValidator;
+    private readonly IEmailSenderService emailSender;
 
     public AnimalService(
         IDbContextFactory<MainDbContext> contextFactory,
         IMapper mapper,
         IModelValidator<AddAnimalModel> addAnimalModelValidator,
-        IModelValidator<UpdateAnimalModel> updateAnimalModelValidator
+        IModelValidator<UpdateAnimalModel> updateAnimalModelValidator,
+        IEmailSenderService emailSender
         )
     {
         this.contextFactory = contextFactory;
         this.mapper = mapper;
         this.addAnimalModelValidator = addAnimalModelValidator;
         this.updateAnimalModelValidator = updateAnimalModelValidator;
+        this.emailSender = emailSender;
     }
 
     public async Task<IEnumerable<AnimalModel>> GetAnimals(int offset = 0, int limit = 10)
@@ -71,8 +74,23 @@ public class AnimalService : IAnimalService
         await context.Animals.AddAsync(animal);
         context.SaveChangesAsync();
 
+        SendEmail(model);
+
         return mapper.Map<AnimalModel>(animal);
     }
+
+    private void SendEmail(AddAnimalModel model)
+    {
+        EmailModel emailModel = new EmailModel();
+        emailModel.Subject = "New lost animal";
+        emailModel.Message = "New lost aimal is a " + model.Kind + " and " + model.Breed;
+
+        emailSender.SendEmail(emailModel);
+    }
+
+
+
+
 
 
     public async Task UpdateAnimal(int animalId, UpdateAnimalModel model)
