@@ -98,7 +98,7 @@
             </summary>
             <response code="200">AnimalResponse</response>
         </member>
-        <member name="M:FindPets.API.Controllers.Animals.AnimalsController.Photo(System.Int32)">
+        <member name="M:FindPets.API.Controllers.Animals.AnimalsController.GetPhoto(System.Int32)">
             <summary>
             Get photo of animal by Id
             </summary>
@@ -136,7 +136,6 @@
             <summary>
             Get comments
             </summary>
-            <param name="animalId">Animal Id</param>
             <param name="offset">Offset to the first element</param>
             <param name="limit">Count elements on the page</param>
             <response code="200">List of CommentResponses</response>
@@ -161,7 +160,7 @@
             </summary>
             <param name="offset">Offset to the first element</param>
             <param name="limit">Count elements on the page</param>
-            <response code="200">List of AnimalResponses</response>
+            <response code="200">List of requests for lost animals</response>
         </member>
     </members>
 </doc>

@@ -31,6 +31,8 @@ public class AnimalService : IAnimalService
         this.emailSender = emailSender;
     }
 
+    public AnimalService() { }
+
     public async Task<IEnumerable<AnimalModel>> GetAnimals(int offset = 0, int limit = 10)
     {
         using var context = await contextFactory.CreateDbContextAsync();

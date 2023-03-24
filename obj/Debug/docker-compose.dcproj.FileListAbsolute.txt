@@ -83,3 +83,10 @@ C:\projects\.NET\DSR\СourseProject\obj\Debug\docker-compose.dcproj.AssemblyRefe
 C:\projects\.NET\DSR\СourseProject\obj\Debug\docker-compose.dcproj.CopyComplete
 C:\projects\.NET\DSR\СourseProject\bin\Debug\FindPets.Services.Comments.dll
 C:\projects\.NET\DSR\СourseProject\bin\Debug\FindPets.Services.Comments.pdb
+C:\projects\.NET\DSR\СourseProject\bin\Debug\FindPets.Services.Requests.dll
+C:\projects\.NET\DSR\СourseProject\bin\Debug\FindPets.Services.EmailSender.dll
+C:\projects\.NET\DSR\СourseProject\bin\Debug\MimeKit.dll
+C:\projects\.NET\DSR\СourseProject\bin\Debug\MailKit.dll
+C:\projects\.NET\DSR\СourseProject\bin\Debug\BouncyCastle.Crypto.dll
+C:\projects\.NET\DSR\СourseProject\bin\Debug\FindPets.Services.Requests.pdb
+C:\projects\.NET\DSR\СourseProject\bin\Debug\FindPets.Services.EmailSender.pdb

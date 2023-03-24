@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qm9oREmuxAbW/Q/e5Vz7AfRMomPEkA9cWsbDYeidW0Y=",
+  "Hash": "a2nMfe2cJRO17Xxn8x51ZF6E60nxkPkeqRIqFNI6FIs=",
   "Source": "FindPets.Api",
   "BasePath": "_content/FindPets.Api",
   "Mode": "Default",
@@ -1020,6 +1020,23 @@
       "OriginalItemSpec": "wwwroot\\photos\\eqwpoa3d.srv"
     },
     {
+      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\jqsqiklv.jpy",
+      "SourceId": "FindPets.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "BasePath": "_content/FindPets.Api",
+      "RelativePath": "photos/jqsqiklv.jpy",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\jqsqiklv.jpy"
+    },
+    {
       "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\Oryctolagus_cuniculus_Rcdo.jpg",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
@@ -1052,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\photos\\pvj1d4u0.rrx"
+    },
+    {
+      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\qx0cenlk.e3g",
+      "SourceId": "FindPets.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "BasePath": "_content/FindPets.Api",
+      "RelativePath": "photos/qx0cenlk.e3g",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\qx0cenlk.e3g"
     },
     {
       "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\rabbit.jpg",

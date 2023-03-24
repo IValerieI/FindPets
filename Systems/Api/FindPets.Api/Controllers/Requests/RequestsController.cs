@@ -31,9 +31,7 @@ public class RequestsController : ControllerBase
     /// </summary>
     /// <param name="request"></param>
     /// <response code="200">AddRequestRequest</response>
-    //[Produces("multipart/form-data")]
     [HttpPost("")]
-    //[Route("testAnimal/")]
     public async Task<RequestResponse> AddAnimal([FromBody] AddRequestRequest request)
     {
         var model = mapper.Map<AddRequestModel>(request);
@@ -48,7 +46,7 @@ public class RequestsController : ControllerBase
     /// </summary>
     /// <param name="offset">Offset to the first element</param>
     /// <param name="limit">Count elements on the page</param>
-    /// <response code="200">List of AnimalResponses</response>
+    /// <response code="200">List of requests for lost animals</response>
     [ProducesResponseType(typeof(IEnumerable<RequestResponse>), 200)]
     [HttpGet("")]
     public async Task<IEnumerable<RequestResponse>> GetRequests([FromQuery] int offset = 0, [FromQuery] int limit = 10)

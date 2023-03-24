@@ -3,9 +3,7 @@
 using AutoMapper;
 using FindPets.API.Controllers.Animals.Models;
 using FindPets.API.Controllers.Models;
-//using FindPets.Common.Security;
 using FindPets.Services.Animals;
-//using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 [Route("api/v{version:apiVersion}/animals")]
@@ -40,11 +38,6 @@ public class AnimalsController : ControllerBase
         var animals = await animalService.GetAnimals(offset, limit);
         var response = mapper.Map<IEnumerable<AnimalResponse>>(animals);
 
-        //foreach (AnimalResponse res in response)
-        //{
-        //    res.Image = "show img";
-        //}
-
         return response;
     }
 
@@ -70,23 +63,13 @@ public class AnimalsController : ControllerBase
     /// <response code="200">Photo of animal</response>
     [Produces("image/png", "application/json")]
     [HttpGet("photo/{id}")]
-    //[Route("testAnimal/")]
-    public async Task<IActionResult> Photo([FromRoute] int id)
+    public async Task<IActionResult> GetPhoto([FromRoute] int id)
     {
         var animal = await animalService.GetAnimal(id);
         string path = webHostEnvironment.WebRootPath + animal.Image;
         if (System.IO.File.Exists(path))
         {
             byte[] b = System.IO.File.ReadAllBytes(path);
-
-            //var response = mapper.Map<AnimalResponse>(animal);
-
-            //response.File = File(b, "image/png");
-            //return response;
-            //Tuple<IActionResult, AnimalResponse> tuple =
-            //    new Tuple<IActionResult, AnimalResponse>(File(b, "image/png"), response);
-            //return tuple;
-
             return File(b, "image/png");
         }
         return null;
@@ -99,9 +82,7 @@ public class AnimalsController : ControllerBase
     /// </summary>
     /// <param name="request"></param>
     /// <response code="200">AddAnimalRequest</response>
-    //[Produces("multipart/form-data")]
     [HttpPost("")]
-    //[Route("testAnimal/")]
     public async Task<AnimalResponse> AddAnimal([FromForm] AddAnimalRequest request)
     {
 
@@ -113,23 +94,16 @@ public class AnimalsController : ControllerBase
                 await request.File.CopyToAsync(fileStream);
             }
             request.Image = path;
-            //request.File.Name = path;
-            //Console.WriteLine(path);
 
             var model = mapper.Map<AddAnimalModel>(request);
             var animal = await animalService.AddAnimal(model);
             var response = mapper.Map<AnimalResponse>(animal);
 
-            //return path;
             return response;
         }
 
-        //var model = mapper.Map<AddAnimalModel>(request);
-        //var animal = await animalService.AddAnimal(model);
 
         return null;
-        //return "why";
-        //return Ok($"{file.FileName} is {file.Length} bytes long");
     }
 
 
@@ -166,68 +140,3 @@ public class AnimalsController : ControllerBase
 
 
 
-
-
-
-///// <summary>
-///// Add animal
-///// </summary>
-/////// <param name="uploadedFile"></param>
-///// <param name="request"></param>
-///// <response code="200">AddAnimalRequest</response>
-////[Produces("multipart/form-data")]
-//[HttpPost("")]
-//public async Task<AnimalResponse> AddAnimal([FromBody] AddAnimalRequest request)
-//{
-
-//    //if (uploadedFile != null)
-//    //{
-//    //    string path = "/photos/" + uploadedFile.FileName;
-//    //    using (var fileStream = new FileStream(webHostEnvironment.WebRootPath + path, FileMode.Create))
-//    //    {
-//    //        await uploadedFile.CopyToAsync(fileStream);
-//    //    }
-//    //    request.Image = path;
-//    //}
-
-//    //request.Image = await Upload(uploadedFile);
-
-
-
-//    var model = mapper.Map<AddAnimalModel>(request);
-//    var animal = await animalService.AddAnimal(model);
-//    var response = mapper.Map<AnimalResponse>(animal);
-
-
-//    return response;
-//}
-
-///// <summary>
-///// File upload
-///// </summary>
-///// <param name="file"></param>
-///// <returns></returns>
-//[HttpPost]
-//[Route("test/")]
-//public async Task<string> Upload(IFormFile uploadedFile/*, AddAnimalRequest request*/)
-//{
-
-//    if (uploadedFile != null)
-//    {
-//        string path = "/photos/" + uploadedFile.FileName;
-//        using (var fileStream = new FileStream(webHostEnvironment.WebRootPath + path, FileMode.Create))
-//        {
-//            await uploadedFile.CopyToAsync(fileStream);
-//        }
-//        //request.Image = path;
-//        Console.WriteLine(path);
-
-//        return path;
-//    }
-
-//    //var model = mapper.Map<AddAnimalModel>(request);
-//    //var animal = await animalService.AddAnimal(model);
-
-//    return "why";
-//    //return Ok($"{file.FileName} is {file.Length} bytes long");
-//}

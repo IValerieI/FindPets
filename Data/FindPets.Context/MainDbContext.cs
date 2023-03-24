@@ -36,8 +36,6 @@ namespace FindPets.Context
             modelBuilder.Entity<Comment>().Property(x => x.Text).IsRequired();
             modelBuilder.Entity<Comment>().Property(x => x.Text).HasMaxLength(500);
 
-            //modelBuilder.Entity<Comment>().HasOne(x => x.Animal).WithMany(x => x.Comments).HasForeignKey(x => x.AnimalId).OnDelete(DeleteBehavior.Restrict);
-
 
             modelBuilder.Entity<Request>().ToTable("requests");
             modelBuilder.Entity<Request>().Property(x => x.Name).IsRequired();

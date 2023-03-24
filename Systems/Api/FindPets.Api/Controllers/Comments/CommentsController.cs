@@ -36,7 +36,6 @@ public class CommentsController : ControllerBase
     /// <summary>
     /// Get comments
     /// </summary>
-    /// <param name="animalId">Animal Id</param>
     /// <param name="offset">Offset to the first element</param>
     /// <param name="limit">Count elements on the page</param>
     /// <response code="200">List of CommentResponses</response>
@@ -57,9 +56,7 @@ public class CommentsController : ControllerBase
     /// </summary>
     /// <param name="request"></param>
     /// <response code="200">AddCommentRequest</response>
-    //[Produces("multipart/form-data")]
     [HttpPost("")]
-    //[Route("testAnimal/")]
     public async Task<CommentResponse> AddComment([FromForm] AddCommentRequest request)
     {
         //request.Created = DateTime.UtcNow;
