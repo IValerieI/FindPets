@@ -45,6 +45,29 @@ services:
       target: /var/lib/postgresql/data
       bind:
         create_host_path: true
+  findpets_rabbitmq:
+    image: rabbitmq:management
+    networks:
+      shared_findpets_net: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+    - mode: ingress
+      target: 5673
+      published: "5673"
+      protocol: tcp
+    - mode: ingress
+      target: 15672
+      published: "15672"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\projects\.NET\DSR\СourseProject\rabbitmq
+      target: /var/lib/rabbitmq
+      bind:
+        create_host_path: true
   findpets_redis:
     image: redis
     networks:

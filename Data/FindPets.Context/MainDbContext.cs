@@ -1,9 +1,11 @@
 ﻿using FindPets.Context.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace FindPets.Context
 {
-    public class MainDbContext : DbContext
+    public class MainDbContext : IdentityDbContext<User, UserRole, Guid>
     {
         public DbSet<Animal> Animals { get; set; }
         public DbSet<Comment> Comments { get; set; }
@@ -15,6 +17,13 @@ namespace FindPets.Context
         {
             base.OnModelCreating(modelBuilder);
 
+            modelBuilder.Entity<User>().ToTable("users");
+            modelBuilder.Entity<UserRole>().ToTable("user_roles");
+            modelBuilder.Entity<IdentityUserToken<Guid>>().ToTable("user_tokens");
+            modelBuilder.Entity<IdentityUserRole<Guid>>().ToTable("user_role_owners");
+            modelBuilder.Entity<IdentityRoleClaim<Guid>>().ToTable("user_role_claims");
+            modelBuilder.Entity<IdentityUserLogin<Guid>>().ToTable("user_logins");
+            modelBuilder.Entity<IdentityUserClaim<Guid>>().ToTable("user_claims");
 
             modelBuilder.Entity<Animal>().ToTable("animals");
             modelBuilder.Entity<Animal>().Property(x => x.Kind).IsRequired();

@@ -46,7 +46,11 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -116,23 +120,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[6.0.16, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[6.0.8, )"
             }
           },
           "imports": [
@@ -205,6 +209,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.8, )"
             }
           },
           "imports": [

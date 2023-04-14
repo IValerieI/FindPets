@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RZbka4G7hG66dlV6IIfeYRcKy8Xk4vSV55U3Ja5KGcJB09eqLsXUofBy7+Lx7hOuk8LLns8IUjtIXrSD59j3xQ==",
+  "dgSpecHash": "Dz2n7o1nGkrxvJ7NjOmNHEg0HwU7e5/4ZwJHt9SbGNBkhgH7RBETC352HLLwwnQ6KvphzB3mfI8x0cBSva5fuw==",
   "success": true,
   "projectFilePath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,7 @@
     "C:\\Users\\Valeria\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\7.0.0\\microsoft.extensions.configuration.environmentvariables.7.0.0.nupkg.sha512",
     "C:\\Users\\Valeria\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
     "C:\\Users\\Valeria\\.nuget\\packages\\microsoft.extensions.configuration.json\\7.0.0\\microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\Valeria\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Valeria\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Valeria\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Valeria\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0\\microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
     "C:\\Users\\Valeria\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",

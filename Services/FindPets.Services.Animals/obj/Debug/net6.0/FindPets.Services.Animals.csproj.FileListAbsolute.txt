@@ -4,10 +4,12 @@ C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Common.dll
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Context.dll
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Context.Entities.dll
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Services.EmailSender.dll
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Settings.dll
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Context.Entities.pdb
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Context.pdb
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Common.pdb
+C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Services.EmailSender.pdb
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Settings.pdb
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\obj\Debug\net6.0\FindPets.Services.Animals.csproj.AssemblyReference.cache
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\obj\Debug\net6.0\FindPets.Services.Animals.GeneratedMSBuildEditorConfig.editorconfig
@@ -19,5 +21,3 @@ C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\obj\Debug
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\obj\Debug\net6.0\refint\FindPets.Services.Animals.dll
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\obj\Debug\net6.0\FindPets.Services.Animals.pdb
 C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\obj\Debug\net6.0\ref\FindPets.Services.Animals.dll
-C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Services.EmailSender.dll
-C:\projects\.NET\DSR\СourseProject\Services\FindPets.Services.Animals\bin\Debug\net6.0\FindPets.Services.EmailSender.pdb
