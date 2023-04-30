@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RZbka4G7hG66dlV6IIfeYRcKy8Xk4vSV55U3Ja5KGcJB09eqLsXUofBy7+Lx7hOuk8LLns8IUjtIXrSD59j3xQ==",
+  "dgSpecHash": "ALL5TzXfjsdoQDytliiRpv0cZAPhZZwqbFAJ5LoKQLs5g0SUlNRQB+hEQUleBgQlGEFjiAcRC5igd9zjjeofRQ==",
   "success": true,
-  "projectFilePath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj",
+  "projectFilePath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Valeria\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Valeria\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "phvX6F24ouzOh0UrrRJ4vH/vqKuS8nqHNHJL6NiNEB9Qp9GovnPa0ukc06bmW1dEOXR8iGAeJp3PcOpzgsOfjw==",
+  "dgSpecHash": "meCbkLLHRrekiWk0qWOAle1dnF2OZflzNwc6J7M44ZCwUjuIwiPGV7mLWq0nrMiDVuPBTWgmdsDV11upn5dk9w==",
   "success": true,
-  "projectFilePath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj",
+  "projectFilePath": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Valeria\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Valeria\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

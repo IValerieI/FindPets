@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FindPets.Context.Entities
-build_property.ProjectDir = C:\projects\.NET\DSR\СourseProject\Data\FindPets.Context.Entities\
+build_property.ProjectDir = C:\projects\.NET\DSR\CourseProject\Data\FindPets.Context.Entities\

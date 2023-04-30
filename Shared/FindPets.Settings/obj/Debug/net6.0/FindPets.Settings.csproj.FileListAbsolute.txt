@@ -10,3 +10,15 @@ C:\projects\.NET\DSR\СourseProject\Shared\FindPets.Settings\obj\Debug\net6.0\Fi
 C:\projects\.NET\DSR\СourseProject\Shared\FindPets.Settings\obj\Debug\net6.0\refint\FindPets.Settings.dll
 C:\projects\.NET\DSR\СourseProject\Shared\FindPets.Settings\obj\Debug\net6.0\FindPets.Settings.pdb
 C:\projects\.NET\DSR\СourseProject\Shared\FindPets.Settings\obj\Debug\net6.0\ref\FindPets.Settings.dll
+C:\projects\.NET\DSR\CourseProject\Shared\FindPets.Settings\bin\Debug\net6.0\FindPets.Settings.deps.json
+C:\projects\.NET\DSR\CourseProject\Shared\FindPets.Settings\bin\Debug\net6.0\FindPets.Settings.dll
+C:\projects\.NET\DSR\CourseProject\Shared\FindPets.Settings\bin\Debug\net6.0\FindPets.Settings.pdb
+C:\projects\.NET\DSR\CourseProject\Shared\FindPets.Settings\obj\Debug\net6.0\FindPets.Settings.csproj.AssemblyReference.cache
+C:\projects\.NET\DSR\CourseProject\Shared\FindPets.Settings\obj\Debug\net6.0\FindPets.Settings.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\.NET\DSR\CourseProject\Shared\FindPets.Settings\obj\Debug\net6.0\FindPets.Settings.AssemblyInfoInputs.cache
+C:\projects\.NET\DSR\CourseProject\Shared\FindPets.Settings\obj\Debug\net6.0\FindPets.Settings.AssemblyInfo.cs
+C:\projects\.NET\DSR\CourseProject\Shared\FindPets.Settings\obj\Debug\net6.0\FindPets.Settings.csproj.CoreCompileInputs.cache
+C:\projects\.NET\DSR\CourseProject\Shared\FindPets.Settings\obj\Debug\net6.0\FindPets.Settings.dll
+C:\projects\.NET\DSR\CourseProject\Shared\FindPets.Settings\obj\Debug\net6.0\refint\FindPets.Settings.dll
+C:\projects\.NET\DSR\CourseProject\Shared\FindPets.Settings\obj\Debug\net6.0\FindPets.Settings.pdb
+C:\projects\.NET\DSR\CourseProject\Shared\FindPets.Settings\obj\Debug\net6.0\ref\FindPets.Settings.dll

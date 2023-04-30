@@ -568,11 +568,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj",
+      "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj",
       "projectName": "FindPets.Context.Entities",
-      "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj",
+      "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj",
       "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\obj\\",
+      "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

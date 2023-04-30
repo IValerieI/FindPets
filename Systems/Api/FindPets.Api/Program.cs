@@ -31,8 +31,9 @@ services.RegisterAppServices();
 
 
 
-
 var app = builder.Build();
+
+app.UseStaticFiles();
 
 app.UseAppControllerAndViews();
 app.UseAppSwagger();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a2nMfe2cJRO17Xxn8x51ZF6E60nxkPkeqRIqFNI6FIs=",
+  "Hash": "G9ghIZVNCXAzrkbLREpIUIZm59fnWsfDAYD6dtSF0z0=",
   "Source": "FindPets.Api",
   "BasePath": "_content/FindPets.Api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FindPets.Api\\wwwroot",
       "Source": "FindPets.Api",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FindPets.Api.styles.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FindPets.Api.styles.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "FindPets.Api.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FindPets.Api.styles.css"
+      "OriginalItemSpec": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FindPets.Api.styles.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FindPets.Api.bundle.scp.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FindPets.Api.bundle.scp.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "FindPets.Api.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FindPets.Api.bundle.scp.css"
+      "OriginalItemSpec": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FindPets.Api.bundle.scp.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\css\\site.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\css\\site.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\favicon.ico",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\favicon.ico",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\img\\back.png",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\img\\back.png",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "img/back.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\img\\back.png"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\js\\site.js",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\js\\site.js",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\b4pkqup2.pvr",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\b4pkqup2.pvr",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "photos/b4pkqup2.pvr",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\photos\\b4pkqup2.pvr"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\bird.jpg",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\bird.jpg",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "photos/bird.jpg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\photos\\bird.jpg"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\download.jpg",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\download.jpg",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "photos/download.jpg",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\photos\\download.jpg"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\eqwpoa3d.srv",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\eqwpoa3d.srv",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "photos/eqwpoa3d.srv",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\photos\\eqwpoa3d.srv"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\jqsqiklv.jpy",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\jqsqiklv.jpy",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "photos/jqsqiklv.jpy",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\photos\\jqsqiklv.jpy"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\Oryctolagus_cuniculus_Rcdo.jpg",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\Oryctolagus_cuniculus_Rcdo.jpg",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "photos/Oryctolagus_cuniculus_Rcdo.jpg",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\photos\\Oryctolagus_cuniculus_Rcdo.jpg"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\pvj1d4u0.rrx",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\pvj1d4u0.rrx",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "photos/pvj1d4u0.rrx",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\photos\\pvj1d4u0.rrx"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\qx0cenlk.e3g",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\qx0cenlk.e3g",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "photos/qx0cenlk.e3g",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\photos\\qx0cenlk.e3g"
     },
     {
-      "Identity": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\rabbit.jpg",
+      "Identity": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\photos\\rabbit.jpg",
       "SourceId": "FindPets.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
+      "ContentRoot": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\wwwroot\\",
       "BasePath": "_content/FindPets.Api",
       "RelativePath": "photos/rabbit.jpg",
       "AssetKind": "All",

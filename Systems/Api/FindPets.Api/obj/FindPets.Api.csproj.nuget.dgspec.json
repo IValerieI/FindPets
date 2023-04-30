@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\FindPets.Api.csproj": {}
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\FindPets.Api.csproj": {}
   },
   "projects": {
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj",
         "projectName": "FindPets.Context.Entities",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj",
+        "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj",
         "projectName": "FindPets.Context",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj",
+        "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,11 +97,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj"
               }
             }
           }
@@ -155,14 +155,14 @@
         }
       }
     },
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\Migrations\\FindPets.Context.MigrationsMSSQL\\FindPets.Context.MigrationsMSSQL.csproj": {
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\Migrations\\FindPets.Context.MigrationsMSSQL\\FindPets.Context.MigrationsMSSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\Migrations\\FindPets.Context.MigrationsMSSQL\\FindPets.Context.MigrationsMSSQL.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\Migrations\\FindPets.Context.MigrationsMSSQL\\FindPets.Context.MigrationsMSSQL.csproj",
         "projectName": "FindPets.Context.MigrationsMSSQL",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\Migrations\\FindPets.Context.MigrationsMSSQL\\FindPets.Context.MigrationsMSSQL.csproj",
+        "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\Migrations\\FindPets.Context.MigrationsMSSQL\\FindPets.Context.MigrationsMSSQL.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\Migrations\\FindPets.Context.MigrationsMSSQL\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\Migrations\\FindPets.Context.MigrationsMSSQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -183,11 +183,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
               }
             }
           }
@@ -227,14 +227,14 @@
         }
       }
     },
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\FindPets.Context.MigrationsPostgreSQL.csproj": {
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\FindPets.Context.MigrationsPostgreSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\FindPets.Context.MigrationsPostgreSQL.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\FindPets.Context.MigrationsPostgreSQL.csproj",
         "projectName": "FindPets.Context.MigrationsPostgreSQL",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\FindPets.Context.MigrationsPostgreSQL.csproj",
+        "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\FindPets.Context.MigrationsPostgreSQL.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -255,11 +255,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
               }
             }
           }
@@ -299,14 +299,14 @@
         }
       }
     },
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Animals\\FindPets.Services.Animals.csproj": {
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Animals\\FindPets.Services.Animals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Animals\\FindPets.Services.Animals.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Animals\\FindPets.Services.Animals.csproj",
         "projectName": "FindPets.Services.Animals",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Animals\\FindPets.Services.Animals.csproj",
+        "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Animals\\FindPets.Services.Animals.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Animals\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Animals\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -327,17 +327,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj"
               }
             }
           }
@@ -385,14 +385,14 @@
         }
       }
     },
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj": {
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj",
         "projectName": "FindPets.Services.Comments",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj",
+        "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Comments\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -413,14 +413,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj"
               }
             }
           }
@@ -464,14 +464,14 @@
         }
       }
     },
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj": {
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj",
         "projectName": "FindPets.Services.EmailSender",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj",
+        "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.EmailSender\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -537,14 +537,14 @@
         }
       }
     },
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj": {
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj",
         "projectName": "FindPets.Services.Requests",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj",
+        "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Requests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -565,17 +565,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context.Entities\\FindPets.Context.Entities.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj"
               }
             }
           }
@@ -619,14 +619,14 @@
         }
       }
     },
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj": {
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj",
         "projectName": "FindPets.Services.Settings",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj",
+        "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Settings\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Settings\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -647,8 +647,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj"
               }
             }
           }
@@ -688,14 +688,14 @@
         }
       }
     },
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj",
         "projectName": "FindPets.Common",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj",
+        "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -777,14 +777,14 @@
         }
       }
     },
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj": {
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj",
         "projectName": "FindPets.Settings",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj",
+        "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Settings\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Settings\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -862,14 +862,14 @@
         }
       }
     },
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api.Settings\\FindPets.Api.Settings.csproj": {
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api.Settings\\FindPets.Api.Settings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api.Settings\\FindPets.Api.Settings.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api.Settings\\FindPets.Api.Settings.csproj",
         "projectName": "FindPets.Api.Settings",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api.Settings\\FindPets.Api.Settings.csproj",
+        "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api.Settings\\FindPets.Api.Settings.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api.Settings\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api.Settings\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -890,8 +890,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj"
               }
             }
           }
@@ -935,14 +935,14 @@
         }
       }
     },
-    "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\FindPets.Api.csproj": {
+    "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\FindPets.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\FindPets.Api.csproj",
+        "projectUniqueName": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\FindPets.Api.csproj",
         "projectName": "FindPets.Api",
-        "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\FindPets.Api.csproj",
+        "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\FindPets.Api.csproj",
         "packagesPath": "C:\\Users\\Valeria\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api\\obj\\",
+        "outputPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -963,38 +963,38 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\FindPets.Context\\FindPets.Context.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\Migrations\\FindPets.Context.MigrationsMSSQL\\FindPets.Context.MigrationsMSSQL.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\Migrations\\FindPets.Context.MigrationsMSSQL\\FindPets.Context.MigrationsMSSQL.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\Migrations\\FindPets.Context.MigrationsMSSQL\\FindPets.Context.MigrationsMSSQL.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\Migrations\\FindPets.Context.MigrationsMSSQL\\FindPets.Context.MigrationsMSSQL.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\FindPets.Context.MigrationsPostgreSQL.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\FindPets.Context.MigrationsPostgreSQL.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\FindPets.Context.MigrationsPostgreSQL.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\FindPets.Context.MigrationsPostgreSQL.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Animals\\FindPets.Services.Animals.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Animals\\FindPets.Services.Animals.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Animals\\FindPets.Services.Animals.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Animals\\FindPets.Services.Animals.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.EmailSender\\FindPets.Services.EmailSender.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Requests\\FindPets.Services.Requests.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Settings\\FindPets.Services.Settings.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Common\\FindPets.Common.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Shared\\FindPets.Settings\\FindPets.Settings.csproj"
               },
-              "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api.Settings\\FindPets.Api.Settings.csproj": {
-                "projectPath": "C:\\projects\\.NET\\DSR\\СourseProject\\Systems\\Api\\FindPets.Api.Settings\\FindPets.Api.Settings.csproj"
+              "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api.Settings\\FindPets.Api.Settings.csproj": {
+                "projectPath": "C:\\projects\\.NET\\DSR\\CourseProject\\Systems\\Api\\FindPets.Api.Settings\\FindPets.Api.Settings.csproj"
               }
             }
           }

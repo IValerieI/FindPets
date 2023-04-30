@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DLc8qAsyLzglIw5BeZZayWHux8RWUVawmMwm5z1QyI9x69g+Gh+BrwdDtUcXEV8nuPIpAXuI1rwtJGvDj1GtPw==",
+  "dgSpecHash": "QPX2IVVZaF11wY/CKHuHkdoRqO3N70klBpgDT86Rk4xBbTF4URAy0ZnZ6Kbs/WEEbqHQWf4BxlE5tdaNnw0Uyw==",
   "success": true,
-  "projectFilePath": "C:\\projects\\.NET\\DSR\\СourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj",
+  "projectFilePath": "C:\\projects\\.NET\\DSR\\CourseProject\\Services\\FindPets.Services.Comments\\FindPets.Services.Comments.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Valeria\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Valeria\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

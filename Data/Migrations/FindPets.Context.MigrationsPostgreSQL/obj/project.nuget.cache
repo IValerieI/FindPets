@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "odzFUH1iVReZAsnh+C9hoiQHdnse//xgbxC2C2j4hUVi8gVOCASejrM+7Fq8hb3TRKTfyJ0dmIb2U93n2VGa0w==",
+  "dgSpecHash": "u+QPWZWk8MYgroFidWkHXej+ZDl3kPl5nDZT4SjzjDL7Fox0t9wOnee8o7M8QUnvOH//361WqPbIhwZ6969icQ==",
   "success": true,
-  "projectFilePath": "C:\\projects\\.NET\\DSR\\СourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\FindPets.Context.MigrationsPostgreSQL.csproj",
+  "projectFilePath": "C:\\projects\\.NET\\DSR\\CourseProject\\Data\\Migrations\\FindPets.Context.MigrationsPostgreSQL\\FindPets.Context.MigrationsPostgreSQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Valeria\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Valeria\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
