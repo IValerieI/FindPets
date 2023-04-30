@@ -1,4 +1,7 @@
 # FindPets
+
+How to start a project:
+
 1. Start the PostgreSQL in the Docker
 
 docker pull postgres
